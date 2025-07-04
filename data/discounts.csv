@@ -1,0 +1,501 @@
+id,code,name,description,discount_value,usage_limit,type,created_by,start_date,end_date,active,created_at,updated_at
+1,DISC0001,Record Discount,Project executive director will.,18.71,75,FLAT_RATE,9501,2024-12-31,2025-02-19,False,2024-12-31,2025-07-03
+2,DISC0002,Model Discount,Citizen black bill.,29.13,132,PERCENTAGE,9968,2024-09-30,2024-11-23,False,2024-09-30,2025-07-03
+3,DISC0003,Discuss Discount,Great child back system can.,26.31,344,PERCENTAGE,9678,2025-05-25,2025-10-05,True,2025-05-25,2025-07-03
+4,DISC0004,Time Discount,Surface record together trip.,10.78,164,FLAT_RATE,9623,2025-06-16,2025-11-08,True,2025-06-16,2025-07-03
+5,DISC0005,Remain Discount,Show buy lead college.,33.58,114,FLAT_RATE,9810,2024-12-05,2025-03-06,False,2024-12-05,2025-07-03
+6,DISC0006,Look Discount,Usually very clear step.,8.31,325,FLAT_RATE,9509,2025-03-03,2025-08-06,True,2025-03-03,2025-07-03
+7,DISC0007,Win Discount,Soon report hour across.,45.52,278,FLAT_RATE,9523,2024-10-07,2025-04-03,False,2024-10-07,2025-07-03
+8,DISC0008,Close Discount,Single note song us who car heart.,29.68,333,PERCENTAGE,9838,2024-11-29,2025-01-31,False,2024-11-29,2025-07-03
+9,DISC0009,Wide Discount,This save a better moment name.,15.15,426,PERCENTAGE,9877,2024-07-13,2024-08-25,False,2024-07-13,2025-07-03
+10,DISC0010,Special Discount,According wear staff close without democratic.,7.55,260,FLAT_RATE,9683,2025-01-21,2025-05-18,False,2025-01-21,2025-07-03
+11,DISC0011,Record Discount,Specific physical song.,33.51,496,FLAT_RATE,9716,2024-08-31,2024-10-04,False,2024-08-31,2025-07-03
+12,DISC0012,Sit Discount,Three him air ten structure national ask.,19.24,338,FLAT_RATE,9520,2024-10-14,2025-03-23,False,2024-10-14,2025-07-03
+13,DISC0013,Mention Discount,Against game find science either.,27.0,131,PERCENTAGE,9537,2025-05-31,2025-09-14,True,2025-05-31,2025-07-03
+14,DISC0014,Cold Discount,Man none style trade happy.,17.9,324,PERCENTAGE,9543,2025-06-02,2025-10-12,True,2025-06-02,2025-07-03
+15,DISC0015,Surface Discount,Election everything political can item.,42.0,318,PERCENTAGE,9520,2025-06-03,2025-08-21,True,2025-06-03,2025-07-03
+16,DISC0016,Certainly Discount,Believe eat should sometimes.,28.2,67,PERCENTAGE,9726,2025-05-08,2025-11-03,True,2025-05-08,2025-07-03
+17,DISC0017,Tax Discount,Wrong draw near tonight. Court newspaper article.,8.09,493,PERCENTAGE,9657,2024-12-20,2025-05-05,False,2024-12-20,2025-07-03
+18,DISC0018,Job Discount,Research store professor out thank right art.,26.53,337,FLAT_RATE,9587,2025-04-28,2025-06-24,False,2025-04-28,2025-07-03
+19,DISC0019,Open Discount,True glass hope success somebody third.,7.48,483,FLAT_RATE,9896,2025-03-13,2025-08-11,True,2025-03-13,2025-07-03
+20,DISC0020,Station Discount,People create who threat technology difficult.,38.13,330,FLAT_RATE,9807,2025-04-16,2025-08-09,True,2025-04-16,2025-07-03
+21,DISC0021,Military Discount,And similar subject early blue daughter down.,25.1,433,FLAT_RATE,9878,2024-09-19,2024-12-15,False,2024-09-19,2025-07-03
+22,DISC0022,Next Discount,Cold affect also Mrs population whom.,15.73,173,PERCENTAGE,9785,2024-08-18,2024-11-18,False,2024-08-18,2025-07-03
+23,DISC0023,Window Discount,Large save live fine fall book.,19.18,456,FLAT_RATE,9847,2025-06-19,2025-08-22,True,2025-06-19,2025-07-03
+24,DISC0024,Everything Discount,Run impact avoid.,38.69,155,FLAT_RATE,9537,2025-01-27,2025-06-21,False,2025-01-27,2025-07-03
+25,DISC0025,Street Discount,Rule sell itself purpose show.,44.0,466,FLAT_RATE,9748,2024-08-02,2024-10-25,False,2024-08-02,2025-07-03
+26,DISC0026,Eat Discount,Him sort Democrat you often.,44.31,337,PERCENTAGE,9593,2025-05-01,2025-08-31,True,2025-05-01,2025-07-03
+27,DISC0027,After Discount,Side sound spring economic sing within agreement.,20.62,154,FLAT_RATE,9817,2025-01-03,2025-02-04,False,2025-01-03,2025-07-03
+28,DISC0028,Raise Discount,Yeah personal pay mind.,28.3,272,PERCENTAGE,9657,2025-05-14,2025-07-11,True,2025-05-14,2025-07-03
+29,DISC0029,Relationship Discount,Next great group mention both citizen.,31.13,136,PERCENTAGE,9626,2025-04-13,2025-06-21,False,2025-04-13,2025-07-03
+30,DISC0030,Every Discount,Your bill pretty describe.,33.89,285,PERCENTAGE,9684,2025-01-24,2025-03-08,False,2025-01-24,2025-07-03
+31,DISC0031,Hit Discount,Character themselves from sort news price full.,25.34,57,PERCENTAGE,9805,2024-11-08,2024-12-31,False,2024-11-08,2025-07-03
+32,DISC0032,Father Discount,Ahead glass partner hot miss method.,7.86,254,FLAT_RATE,9553,2024-12-11,2025-06-03,False,2024-12-11,2025-07-03
+33,DISC0033,Cup Discount,Yet white although north.,7.72,102,FLAT_RATE,9834,2024-07-03,2024-11-16,False,2024-07-03,2025-07-03
+34,DISC0034,Fire Discount,Its attorney interview sort whatever will.,16.06,485,PERCENTAGE,9881,2025-04-04,2025-06-03,False,2025-04-04,2025-07-03
+35,DISC0035,Something Discount,Author bag television see six.,6.59,146,PERCENTAGE,9708,2024-07-14,2024-08-16,False,2024-07-14,2025-07-03
+36,DISC0036,Although Discount,Answer population read purpose deep six visit.,14.31,56,PERCENTAGE,9923,2025-04-17,2025-06-22,False,2025-04-17,2025-07-03
+37,DISC0037,Require Discount,Nation easy rate laugh win early.,19.12,237,FLAT_RATE,9587,2025-03-21,2025-06-28,False,2025-03-21,2025-07-03
+38,DISC0038,Shoulder Discount,Church international employee before property.,10.76,282,FLAT_RATE,9617,2024-07-15,2024-12-12,False,2024-07-15,2025-07-03
+39,DISC0039,Factor Discount,Story knowledge near international some certain.,44.84,87,PERCENTAGE,9738,2025-01-03,2025-02-19,False,2025-01-03,2025-07-03
+40,DISC0040,Data Discount,Leg body fight already our new.,11.38,419,FLAT_RATE,9782,2025-04-03,2025-05-18,False,2025-04-03,2025-07-03
+41,DISC0041,Reflect Discount,Yes PM their medical. Manage read prove pick.,38.58,91,PERCENTAGE,9592,2024-07-27,2025-01-14,False,2024-07-27,2025-07-03
+42,DISC0042,Feel Discount,Day star operation bit.,12.56,65,FLAT_RATE,9656,2025-02-08,2025-06-07,False,2025-02-08,2025-07-03
+43,DISC0043,Although Discount,Response build nor upon.,25.79,392,FLAT_RATE,9627,2025-01-03,2025-04-24,False,2025-01-03,2025-07-03
+44,DISC0044,Language Discount,Much until least range key something.,48.85,420,FLAT_RATE,9962,2025-03-26,2025-07-17,True,2025-03-26,2025-07-03
+45,DISC0045,Man Discount,Someone organization sound morning.,17.44,404,FLAT_RATE,9710,2025-05-01,2025-08-17,True,2025-05-01,2025-07-03
+46,DISC0046,Food Discount,Cell majority contain fall player.,7.36,306,FLAT_RATE,9946,2025-02-09,2025-04-08,False,2025-02-09,2025-07-03
+47,DISC0047,Painting Discount,Hotel nearly write. Fact agreement allow.,8.28,287,FLAT_RATE,9813,2025-06-26,2025-09-20,True,2025-06-26,2025-07-03
+48,DISC0048,Recognize Discount,On citizen too anything executive interest.,22.32,328,PERCENTAGE,9901,2025-04-22,2025-10-01,True,2025-04-22,2025-07-03
+49,DISC0049,Bit Discount,North mouth recently always.,15.13,484,FLAT_RATE,9685,2024-10-14,2025-01-26,False,2024-10-14,2025-07-03
+50,DISC0050,Pass Discount,Send now work. Need of down religious image.,9.59,136,PERCENTAGE,9969,2024-07-08,2024-09-22,False,2024-07-08,2025-07-03
+51,DISC0051,Window Discount,Mission safe moment shake enjoy concern.,39.14,224,FLAT_RATE,9928,2024-08-11,2024-11-30,False,2024-08-11,2025-07-03
+52,DISC0052,Tell Discount,Partner president page state gun go challenge.,25.3,359,PERCENTAGE,9535,2025-03-21,2025-08-27,True,2025-03-21,2025-07-03
+53,DISC0053,Across Discount,Use official wonder third provide red deal.,43.73,113,PERCENTAGE,9530,2024-10-23,2025-01-13,False,2024-10-23,2025-07-03
+54,DISC0054,Traditional Discount,Son tell serious mission worry evidence Mrs.,44.04,277,FLAT_RATE,9597,2024-08-11,2024-09-25,False,2024-08-11,2025-07-03
+55,DISC0055,Cultural Discount,Look audience position very boy dog everyone.,28.14,473,FLAT_RATE,9571,2024-11-29,2025-03-04,False,2024-11-29,2025-07-03
+56,DISC0056,Rule Discount,Physical degree name black choose continue.,37.34,58,FLAT_RATE,9631,2024-12-09,2025-01-29,False,2024-12-09,2025-07-03
+57,DISC0057,Goal Discount,Wonder anyone eat down sister enjoy TV usually.,29.37,475,PERCENTAGE,9632,2025-02-07,2025-07-12,True,2025-02-07,2025-07-03
+58,DISC0058,East Discount,Whom indeed city research hair.,27.19,270,FLAT_RATE,9663,2024-12-20,2025-03-21,False,2024-12-20,2025-07-03
+59,DISC0059,Program Discount,Huge or general nature impact step test general.,14.65,177,PERCENTAGE,9851,2024-09-12,2024-12-07,False,2024-09-12,2025-07-03
+60,DISC0060,Language Discount,Feel few poor include economic onto even.,25.11,113,PERCENTAGE,9863,2025-01-06,2025-05-19,False,2025-01-06,2025-07-03
+61,DISC0061,Again Discount,Standard allow then apply fine similar.,43.51,62,PERCENTAGE,9789,2024-11-04,2025-04-29,False,2024-11-04,2025-07-03
+62,DISC0062,Laugh Discount,Despite card Mr reach land compare point.,7.85,141,FLAT_RATE,9970,2024-10-19,2025-01-12,False,2024-10-19,2025-07-03
+63,DISC0063,Past Discount,Here pattern behind build person.,6.69,351,PERCENTAGE,9832,2025-05-19,2025-09-26,True,2025-05-19,2025-07-03
+64,DISC0064,Child Discount,Down town continue voice certain this tonight.,16.27,79,FLAT_RATE,9988,2025-05-11,2025-10-03,True,2025-05-11,2025-07-03
+65,DISC0065,Because Discount,Data turn produce in wind.,21.06,373,FLAT_RATE,9604,2024-08-22,2024-10-22,False,2024-08-22,2025-07-03
+66,DISC0066,Recently Discount,Sort tax detail bar worker small.,20.63,415,FLAT_RATE,9953,2024-12-17,2025-02-27,False,2024-12-17,2025-07-03
+67,DISC0067,Social Discount,Marriage mention affect machine her nice federal.,34.06,64,PERCENTAGE,9881,2024-07-14,2024-09-04,False,2024-07-14,2025-07-03
+68,DISC0068,Get Discount,Fly amount officer nothing laugh.,12.81,82,PERCENTAGE,9626,2024-12-12,2025-01-21,False,2024-12-12,2025-07-03
+69,DISC0069,Type Discount,To nothing get could girl purpose build.,18.01,271,FLAT_RATE,9965,2025-01-20,2025-06-09,False,2025-01-20,2025-07-03
+70,DISC0070,Either Discount,Safe head summer age raise pull exist.,9.96,163,PERCENTAGE,9970,2024-07-17,2024-10-21,False,2024-07-17,2025-07-03
+71,DISC0071,Blood Discount,Anything say then data short yeah sister.,43.2,408,FLAT_RATE,9830,2024-09-18,2025-01-26,False,2024-09-18,2025-07-03
+72,DISC0072,Upon Discount,Quality others travel which also data.,29.41,361,PERCENTAGE,9731,2024-11-06,2024-12-15,False,2024-11-06,2025-07-03
+73,DISC0073,About Discount,Play laugh into similar.,20.57,408,FLAT_RATE,9572,2025-05-02,2025-07-29,True,2025-05-02,2025-07-03
+74,DISC0074,Five Discount,Former conference important.,23.98,358,FLAT_RATE,9645,2024-11-06,2025-03-15,False,2024-11-06,2025-07-03
+75,DISC0075,Particularly Discount,Scientist enjoy involve myself yourself scene.,23.89,287,FLAT_RATE,9578,2025-05-21,2025-07-08,True,2025-05-21,2025-07-03
+76,DISC0076,Conference Discount,Garden with art bill medical religious.,15.29,415,FLAT_RATE,9748,2025-05-20,2025-06-27,False,2025-05-20,2025-07-03
+77,DISC0077,Any Discount,Eye agreement interesting now.,10.88,441,FLAT_RATE,9719,2025-05-19,2025-11-01,True,2025-05-19,2025-07-03
+78,DISC0078,Page Discount,Expect water half father.,6.96,372,FLAT_RATE,9920,2025-05-29,2025-07-29,True,2025-05-29,2025-07-03
+79,DISC0079,Power Discount,Television authority natural say.,35.64,275,PERCENTAGE,9638,2025-06-26,2025-11-18,True,2025-06-26,2025-07-03
+80,DISC0080,Fish Discount,Herself his doctor tell enjoy coach south able.,26.93,127,FLAT_RATE,9748,2024-11-30,2025-02-21,False,2024-11-30,2025-07-03
+81,DISC0081,In Discount,News sit protect. Ten discover offer.,44.51,84,FLAT_RATE,9801,2025-02-24,2025-06-29,False,2025-02-24,2025-07-03
+82,DISC0082,Oil Discount,North surface record fire likely mean.,43.48,183,FLAT_RATE,9808,2025-04-18,2025-06-28,False,2025-04-18,2025-07-03
+83,DISC0083,Fear Discount,Its well wish even truth simply management.,6.5,244,FLAT_RATE,9926,2025-01-04,2025-03-27,False,2025-01-04,2025-07-03
+84,DISC0084,Party Discount,Exist blood eye message artist.,35.15,187,FLAT_RATE,9792,2024-12-01,2025-03-22,False,2024-12-01,2025-07-03
+85,DISC0085,Question Discount,Serve plant project itself strategy knowledge.,20.21,148,FLAT_RATE,9808,2025-05-18,2025-10-26,True,2025-05-18,2025-07-03
+86,DISC0086,Week Discount,American fear price she.,49.57,257,FLAT_RATE,9812,2025-04-14,2025-08-10,True,2025-04-14,2025-07-03
+87,DISC0087,Wait Discount,Spring customer course pattern.,49.86,169,FLAT_RATE,9558,2025-03-26,2025-06-28,False,2025-03-26,2025-07-03
+88,DISC0088,College Discount,Note science rest decide.,25.66,498,FLAT_RATE,9618,2024-08-10,2024-11-04,False,2024-08-10,2025-07-03
+89,DISC0089,Special Discount,Fill pass produce give teach add third talk.,10.77,470,PERCENTAGE,9706,2024-11-19,2025-01-31,False,2024-11-19,2025-07-03
+90,DISC0090,Moment Discount,We and growth professor know hour clearly spend.,48.79,105,PERCENTAGE,9689,2024-07-28,2024-09-03,False,2024-07-28,2025-07-03
+91,DISC0091,Which Discount,Thank box per show back president.,16.14,244,PERCENTAGE,9847,2024-09-06,2024-12-24,False,2024-09-06,2025-07-03
+92,DISC0092,Lawyer Discount,Whatever heart movement.,16.79,375,FLAT_RATE,9772,2024-08-23,2024-10-12,False,2024-08-23,2025-07-03
+93,DISC0093,There Discount,Along beautiful seek agent wife challenge much.,25.75,124,PERCENTAGE,9897,2024-12-02,2025-05-29,False,2024-12-02,2025-07-03
+94,DISC0094,West Discount,Treat pick best anyone.,34.61,281,FLAT_RATE,9646,2025-03-06,2025-07-19,True,2025-03-06,2025-07-03
+95,DISC0095,Anything Discount,Per debate lead popular item.,19.96,262,PERCENTAGE,9674,2024-07-12,2024-09-21,False,2024-07-12,2025-07-03
+96,DISC0096,Look Discount,Bill today state protect.,21.14,452,PERCENTAGE,9925,2024-09-10,2025-01-03,False,2024-09-10,2025-07-03
+97,DISC0097,Television Discount,Buy near early song down.,42.28,429,FLAT_RATE,9618,2024-07-06,2024-10-24,False,2024-07-06,2025-07-03
+98,DISC0098,Entire Discount,Product final source color generation hard teach.,18.67,471,PERCENTAGE,9844,2025-06-28,2025-11-02,True,2025-06-28,2025-07-03
+99,DISC0099,Place Discount,Population nice probably interview item.,26.75,179,PERCENTAGE,9689,2025-05-07,2025-07-11,True,2025-05-07,2025-07-03
+100,DISC0100,That Discount,Role car sea enjoy road.,19.58,132,FLAT_RATE,9923,2024-07-13,2024-09-20,False,2024-07-13,2025-07-03
+101,DISC0101,Improve Discount,Out section cost difficult.,45.41,445,FLAT_RATE,9817,2025-03-06,2025-05-09,False,2025-03-06,2025-07-03
+102,DISC0102,Offer Discount,Tax plan tonight measure part drive thousand.,21.33,159,FLAT_RATE,9834,2024-10-29,2025-04-25,False,2024-10-29,2025-07-03
+103,DISC0103,Least Discount,Stop amount recent hit loss similar shake.,37.39,260,FLAT_RATE,9923,2024-09-24,2024-12-10,False,2024-09-24,2025-07-03
+104,DISC0104,Rate Discount,Reality true could.,23.17,424,FLAT_RATE,9690,2025-04-24,2025-09-05,True,2025-04-24,2025-07-03
+105,DISC0105,Friend Discount,Alone city center him assume marriage.,46.9,386,FLAT_RATE,9972,2024-07-23,2024-12-29,False,2024-07-23,2025-07-03
+106,DISC0106,Including Discount,Kid huge more position improve.,32.13,476,FLAT_RATE,9933,2025-04-25,2025-10-09,True,2025-04-25,2025-07-03
+107,DISC0107,Especially Discount,Any no laugh move.,16.18,197,FLAT_RATE,9970,2024-12-12,2025-01-19,False,2024-12-12,2025-07-03
+108,DISC0108,Child Discount,His million individual.,29.66,370,PERCENTAGE,9584,2025-01-08,2025-06-24,False,2025-01-08,2025-07-03
+109,DISC0109,Pretty Discount,Top pattern officer little.,40.26,390,FLAT_RATE,9896,2025-05-09,2025-10-20,True,2025-05-09,2025-07-03
+110,DISC0110,Instead Discount,Career standard ago second.,31.41,318,FLAT_RATE,9795,2024-10-06,2025-03-08,False,2024-10-06,2025-07-03
+111,DISC0111,Soldier Discount,Know where wrong laugh.,22.89,189,FLAT_RATE,9992,2024-12-01,2025-04-17,False,2024-12-01,2025-07-03
+112,DISC0112,Onto Discount,Also myself style approach.,47.26,333,PERCENTAGE,9547,2025-02-09,2025-07-22,True,2025-02-09,2025-07-03
+113,DISC0113,Pressure Discount,Than fact season head threat task respond enjoy.,26.88,193,PERCENTAGE,9731,2024-07-24,2024-09-02,False,2024-07-24,2025-07-03
+114,DISC0114,Conference Discount,Too relate bank own share road school.,20.45,168,PERCENTAGE,9709,2024-10-28,2024-12-15,False,2024-10-28,2025-07-03
+115,DISC0115,Ever Discount,Consider news peace. Natural school Democrat try.,32.3,290,FLAT_RATE,9710,2025-06-01,2025-10-14,True,2025-06-01,2025-07-03
+116,DISC0116,Up Discount,Where until school those could.,16.16,155,FLAT_RATE,9975,2024-07-31,2025-01-08,False,2024-07-31,2025-07-03
+117,DISC0117,Simply Discount,Finish of realize others.,31.46,422,PERCENTAGE,9921,2024-12-20,2025-05-23,False,2024-12-20,2025-07-03
+118,DISC0118,Seem Discount,Effort air occur approach note data ok.,8.18,343,FLAT_RATE,9771,2025-05-26,2025-10-16,True,2025-05-26,2025-07-03
+119,DISC0119,Simple Discount,Great fact quite manager.,12.91,198,PERCENTAGE,9705,2024-08-13,2024-09-26,False,2024-08-13,2025-07-03
+120,DISC0120,Make Discount,Black nor house speech boy seem.,38.15,157,PERCENTAGE,9681,2024-10-12,2025-02-12,False,2024-10-12,2025-07-03
+121,DISC0121,Be Discount,There real war ago together wife nothing.,28.8,251,PERCENTAGE,9971,2025-04-08,2025-08-06,True,2025-04-08,2025-07-03
+122,DISC0122,Ready Discount,Special knowledge then court.,5.33,162,PERCENTAGE,9565,2025-05-28,2025-08-27,True,2025-05-28,2025-07-03
+123,DISC0123,Some Discount,Face watch daughter alone whose chair policy.,25.5,333,FLAT_RATE,9533,2025-06-14,2025-11-28,True,2025-06-14,2025-07-03
+124,DISC0124,Marriage Discount,Eye week defense.,42.19,59,PERCENTAGE,9997,2025-02-28,2025-07-13,True,2025-02-28,2025-07-03
+125,DISC0125,Send Discount,Item high TV program. Coach goal worker include.,21.67,278,PERCENTAGE,9949,2024-10-04,2024-12-15,False,2024-10-04,2025-07-03
+126,DISC0126,Success Discount,Amount impact case now sort machine.,15.72,115,FLAT_RATE,9536,2024-11-28,2025-04-12,False,2024-11-28,2025-07-03
+127,DISC0127,List Discount,Prove focus there data out more you popular.,46.83,307,PERCENTAGE,9593,2024-12-15,2025-06-08,False,2024-12-15,2025-07-03
+128,DISC0128,Production Discount,Light exactly model tough contain our.,17.27,467,FLAT_RATE,9807,2024-10-02,2025-02-12,False,2024-10-02,2025-07-03
+129,DISC0129,Good Discount,Century tough huge these sit strategy.,5.73,119,FLAT_RATE,9893,2024-08-08,2024-09-24,False,2024-08-08,2025-07-03
+130,DISC0130,Trip Discount,Contain project piece professional.,17.18,99,FLAT_RATE,9516,2025-02-02,2025-03-21,False,2025-02-02,2025-07-03
+131,DISC0131,Board Discount,Spring worry physical house run.,46.69,155,PERCENTAGE,9599,2025-06-11,2025-12-08,True,2025-06-11,2025-07-03
+132,DISC0132,Program Discount,Better describe next produce hope sit nature.,36.98,310,PERCENTAGE,9563,2025-01-14,2025-03-08,False,2025-01-14,2025-07-03
+133,DISC0133,Reality Discount,Media discover authority then poor size future.,33.29,397,PERCENTAGE,9596,2024-10-01,2025-02-01,False,2024-10-01,2025-07-03
+134,DISC0134,Air Discount,Staff across participant once let toward.,42.21,327,FLAT_RATE,10000,2025-06-20,2025-11-18,True,2025-06-20,2025-07-03
+135,DISC0135,Lose Discount,Why sometimes hand right take.,47.38,499,FLAT_RATE,9699,2025-03-23,2025-05-24,False,2025-03-23,2025-07-03
+136,DISC0136,Table Discount,Over somebody able agreement.,23.74,179,FLAT_RATE,9558,2024-09-13,2025-03-11,False,2024-09-13,2025-07-03
+137,DISC0137,Identify Discount,While care about stock part you type.,47.28,200,PERCENTAGE,9750,2024-10-04,2024-12-28,False,2024-10-04,2025-07-03
+138,DISC0138,Class Discount,Couple plan technology.,31.31,206,PERCENTAGE,9695,2025-06-01,2025-07-13,True,2025-06-01,2025-07-03
+139,DISC0139,Quickly Discount,Major play staff produce final control evening.,17.49,245,FLAT_RATE,9995,2024-09-21,2025-03-06,False,2024-09-21,2025-07-03
+140,DISC0140,Which Discount,Choice determine team break news.,49.59,201,FLAT_RATE,9575,2024-10-07,2024-11-12,False,2024-10-07,2025-07-03
+141,DISC0141,Where Discount,Stop court national make number dog sense.,48.65,70,FLAT_RATE,9512,2025-02-17,2025-04-17,False,2025-02-17,2025-07-03
+142,DISC0142,Nor Discount,Life throughout million which carry art accept.,37.15,76,FLAT_RATE,9719,2024-09-09,2024-12-02,False,2024-09-09,2025-07-03
+143,DISC0143,Old Discount,Back model total sound.,31.61,430,PERCENTAGE,9727,2024-08-31,2024-11-27,False,2024-08-31,2025-07-03
+144,DISC0144,Event Discount,Watch teach affect they off television say.,22.29,244,FLAT_RATE,9730,2024-07-23,2024-10-18,False,2024-07-23,2025-07-03
+145,DISC0145,Lawyer Discount,Fly the save instead finish our treat.,47.77,379,PERCENTAGE,9762,2024-10-19,2025-02-06,False,2024-10-19,2025-07-03
+146,DISC0146,Able Discount,Task any investment feeling rise population.,8.2,108,PERCENTAGE,9568,2024-12-07,2025-05-29,False,2024-12-07,2025-07-03
+147,DISC0147,Herself Discount,Blue game happy.,9.32,236,PERCENTAGE,9957,2024-07-08,2024-09-05,False,2024-07-08,2025-07-03
+148,DISC0148,Together Discount,Sport site rock rest go.,17.07,342,FLAT_RATE,9955,2025-06-22,2025-07-26,True,2025-06-22,2025-07-03
+149,DISC0149,Direction Discount,Assume certain stuff simple.,20.26,260,PERCENTAGE,9698,2025-01-23,2025-04-19,False,2025-01-23,2025-07-03
+150,DISC0150,Yourself Discount,Suggest ok similar business decision it heavy.,17.87,402,FLAT_RATE,9616,2024-11-22,2024-12-25,False,2024-11-22,2025-07-03
+151,DISC0151,Available Discount,Away relate professor them.,38.49,454,FLAT_RATE,9613,2024-09-11,2024-11-10,False,2024-09-11,2025-07-03
+152,DISC0152,Both Discount,Mother have perform. Less oil house sit region.,30.09,278,FLAT_RATE,9581,2025-01-02,2025-05-09,False,2025-01-02,2025-07-03
+153,DISC0153,Head Discount,Agency left stuff enter. Social light start.,31.1,463,FLAT_RATE,9956,2025-06-26,2025-09-12,True,2025-06-26,2025-07-03
+154,DISC0154,Science Discount,Mother recognize what forget own.,40.27,369,FLAT_RATE,9810,2025-03-19,2025-07-06,True,2025-03-19,2025-07-03
+155,DISC0155,Tell Discount,Pick available consider visit education our.,32.78,58,PERCENTAGE,9940,2025-05-31,2025-09-21,True,2025-05-31,2025-07-03
+156,DISC0156,Drive Discount,Around lose book along even shake.,23.65,74,PERCENTAGE,9697,2025-04-01,2025-07-24,True,2025-04-01,2025-07-03
+157,DISC0157,Employee Discount,Same now position hit radio fund road.,13.7,293,PERCENTAGE,9884,2025-03-10,2025-08-20,True,2025-03-10,2025-07-03
+158,DISC0158,With Discount,Finally he their region.,44.75,231,FLAT_RATE,9780,2024-11-03,2025-01-25,False,2024-11-03,2025-07-03
+159,DISC0159,Production Discount,Term white face almost focus.,46.56,95,FLAT_RATE,9542,2025-04-27,2025-10-02,True,2025-04-27,2025-07-03
+160,DISC0160,Reduce Discount,Field put information change.,12.59,495,PERCENTAGE,9723,2025-01-04,2025-03-20,False,2025-01-04,2025-07-03
+161,DISC0161,Material Discount,Her though born more music mean bar and.,6.25,114,PERCENTAGE,9624,2024-11-14,2025-04-01,False,2024-11-14,2025-07-03
+162,DISC0162,Represent Discount,Realize fund since news.,11.61,416,PERCENTAGE,9929,2025-05-22,2025-11-17,True,2025-05-22,2025-07-03
+163,DISC0163,City Discount,Model mission will.,31.83,115,PERCENTAGE,9526,2024-08-28,2024-10-18,False,2024-08-28,2025-07-03
+164,DISC0164,Car Discount,Appear economy agree health person we.,32.81,88,PERCENTAGE,9873,2024-07-20,2024-12-14,False,2024-07-20,2025-07-03
+165,DISC0165,Head Discount,Unit we radio class.,48.14,396,FLAT_RATE,9759,2025-02-10,2025-06-26,False,2025-02-10,2025-07-03
+166,DISC0166,Yes Discount,Meet garden low professor might hold protect.,37.82,70,FLAT_RATE,9673,2024-09-16,2024-10-22,False,2024-09-16,2025-07-03
+167,DISC0167,Reality Discount,Growth thousand ten cell provide sign similar.,18.47,320,FLAT_RATE,9940,2024-12-29,2025-04-05,False,2024-12-29,2025-07-03
+168,DISC0168,Good Discount,Purpose movie company cost she past.,8.04,61,PERCENTAGE,9591,2025-07-01,2025-10-18,True,2025-07-01,2025-07-03
+169,DISC0169,Unit Discount,If past art idea budget body control.,13.86,94,PERCENTAGE,9685,2024-08-08,2024-10-19,False,2024-08-08,2025-07-03
+170,DISC0170,Simple Discount,Detail through arrive one painting modern.,21.84,390,FLAT_RATE,9745,2025-05-02,2025-08-27,True,2025-05-02,2025-07-03
+171,DISC0171,Sort Discount,Wait never leg practice.,12.02,466,FLAT_RATE,9550,2024-10-18,2025-02-08,False,2024-10-18,2025-07-03
+172,DISC0172,You Discount,Involve present season everybody heart too.,16.1,422,PERCENTAGE,9504,2025-04-06,2025-07-20,True,2025-04-06,2025-07-03
+173,DISC0173,Dinner Discount,Military grow candidate face put yard beat.,21.3,64,FLAT_RATE,9892,2024-07-23,2024-11-22,False,2024-07-23,2025-07-03
+174,DISC0174,Until Discount,Garden author rate.,12.37,166,FLAT_RATE,9526,2025-06-03,2025-08-16,True,2025-06-03,2025-07-03
+175,DISC0175,Reality Discount,Thousand popular he until.,35.31,472,FLAT_RATE,9581,2024-09-07,2025-02-02,False,2024-09-07,2025-07-03
+176,DISC0176,See Discount,Lead firm member cut. Whatever begin view back.,30.38,305,FLAT_RATE,9623,2024-12-04,2025-03-10,False,2024-12-04,2025-07-03
+177,DISC0177,Individual Discount,Two population baby require.,37.26,259,PERCENTAGE,9575,2025-03-20,2025-07-12,True,2025-03-20,2025-07-03
+178,DISC0178,Form Discount,Face water fish animal billion line full people.,7.83,261,PERCENTAGE,9955,2024-07-11,2024-11-24,False,2024-07-11,2025-07-03
+179,DISC0179,Art Discount,Paper affect maybe sing close chance economic.,43.67,293,FLAT_RATE,9515,2025-04-25,2025-10-17,True,2025-04-25,2025-07-03
+180,DISC0180,Wear Discount,House situation arrive simply beat bed into.,45.32,272,PERCENTAGE,9603,2025-04-12,2025-06-27,False,2025-04-12,2025-07-03
+181,DISC0181,Fund Discount,Rich account civil sense consumer.,34.88,474,FLAT_RATE,9716,2024-11-21,2025-01-02,False,2024-11-21,2025-07-03
+182,DISC0182,Wall Discount,Join fact buy later air.,5.38,285,FLAT_RATE,9790,2024-11-29,2025-01-07,False,2024-11-29,2025-07-03
+183,DISC0183,Final Discount,Responsibility ahead anything land along tree.,30.98,116,PERCENTAGE,9502,2024-09-12,2025-02-25,False,2024-09-12,2025-07-03
+184,DISC0184,Break Discount,Close world many enough ability south.,49.51,242,FLAT_RATE,9739,2025-05-11,2025-07-26,True,2025-05-11,2025-07-03
+185,DISC0185,Himself Discount,Law wonder respond thank current set bring.,7.53,321,PERCENTAGE,9815,2025-02-06,2025-05-23,False,2025-02-06,2025-07-03
+186,DISC0186,Prove Discount,Fight within concern keep peace specific child.,32.23,444,FLAT_RATE,9580,2024-11-01,2025-03-09,False,2024-11-01,2025-07-03
+187,DISC0187,Attack Discount,Mother set range civil. Middle although suddenly.,21.88,286,PERCENTAGE,9980,2024-08-26,2025-02-17,False,2024-08-26,2025-07-03
+188,DISC0188,Avoid Discount,Night often nice article expect.,43.29,151,PERCENTAGE,9929,2025-04-11,2025-08-28,True,2025-04-11,2025-07-03
+189,DISC0189,Great Discount,Main scene situation. Now serve one white.,28.2,455,FLAT_RATE,9984,2024-08-15,2024-10-13,False,2024-08-15,2025-07-03
+190,DISC0190,Stand Discount,Member senior student water personal strong.,34.79,173,FLAT_RATE,9626,2025-04-21,2025-08-17,True,2025-04-21,2025-07-03
+191,DISC0191,Summer Discount,Heavy but now discussion create.,37.24,466,FLAT_RATE,9598,2025-03-04,2025-04-29,False,2025-03-04,2025-07-03
+192,DISC0192,Bring Discount,Short knowledge we draw carry worker home.,16.24,150,PERCENTAGE,9793,2025-05-20,2025-07-14,True,2025-05-20,2025-07-03
+193,DISC0193,Father Discount,Small lot receive receive.,25.2,86,FLAT_RATE,9868,2025-02-08,2025-06-09,False,2025-02-08,2025-07-03
+194,DISC0194,Give Discount,Quality amount minute policy eye bit fear.,33.92,223,FLAT_RATE,9532,2025-01-14,2025-03-30,False,2025-01-14,2025-07-03
+195,DISC0195,Fact Discount,Summer line meet nice its president try Democrat.,19.72,112,PERCENTAGE,9859,2024-09-13,2024-11-14,False,2024-09-13,2025-07-03
+196,DISC0196,Lead Discount,Do it wonder might account miss.,44.84,63,PERCENTAGE,9948,2024-12-01,2025-03-25,False,2024-12-01,2025-07-03
+197,DISC0197,Environment Discount,Spend under write able green season charge wind.,23.74,459,FLAT_RATE,9520,2025-05-05,2025-08-05,True,2025-05-05,2025-07-03
+198,DISC0198,Natural Discount,Project car authority evening once.,17.5,383,PERCENTAGE,9826,2025-01-27,2025-04-10,False,2025-01-27,2025-07-03
+199,DISC0199,Service Discount,Reach over sure sign second picture fear under.,41.56,409,FLAT_RATE,9830,2025-06-14,2025-09-20,True,2025-06-14,2025-07-03
+200,DISC0200,Call Discount,The campaign story write find election show.,36.39,471,FLAT_RATE,9702,2025-05-23,2025-10-11,True,2025-05-23,2025-07-03
+201,DISC0201,Five Discount,Meet worker make art speak unit.,28.15,60,PERCENTAGE,9591,2024-08-11,2024-10-29,False,2024-08-11,2025-07-03
+202,DISC0202,Develop Discount,Amount enter simple hear.,5.91,245,PERCENTAGE,9913,2025-04-10,2025-08-04,True,2025-04-10,2025-07-03
+203,DISC0203,Condition Discount,Inside despite to rich table attorney guy.,48.86,194,FLAT_RATE,9632,2024-12-09,2025-02-02,False,2024-12-09,2025-07-03
+204,DISC0204,Hand Discount,Total rule office what teach.,20.43,100,FLAT_RATE,9808,2024-12-05,2025-04-01,False,2024-12-05,2025-07-03
+205,DISC0205,Blood Discount,First candidate movie.,17.99,76,FLAT_RATE,9752,2024-12-20,2025-06-10,False,2024-12-20,2025-07-03
+206,DISC0206,Remember Discount,Half open film either.,21.89,186,PERCENTAGE,9664,2025-05-16,2025-07-26,True,2025-05-16,2025-07-03
+207,DISC0207,Left Discount,Occur conference method land idea bed.,28.89,477,PERCENTAGE,9641,2024-09-19,2024-11-26,False,2024-09-19,2025-07-03
+208,DISC0208,When Discount,Or quality police understand you build.,17.38,472,FLAT_RATE,9725,2024-07-09,2024-10-17,False,2024-07-09,2025-07-03
+209,DISC0209,Sport Discount,Final interview the so his arrive.,49.1,99,FLAT_RATE,9782,2025-06-28,2025-10-06,True,2025-06-28,2025-07-03
+210,DISC0210,Prove Discount,Top begin seek receive area page.,41.82,376,FLAT_RATE,9947,2025-04-29,2025-07-30,True,2025-04-29,2025-07-03
+211,DISC0211,At Discount,Lead Mrs market personal figure.,12.13,72,PERCENTAGE,9510,2024-07-10,2024-12-28,False,2024-07-10,2025-07-03
+212,DISC0212,Small Discount,Able gas why improve.,35.64,167,FLAT_RATE,9622,2024-10-15,2025-02-12,False,2024-10-15,2025-07-03
+213,DISC0213,Now Discount,Concern political every stuff.,39.85,80,PERCENTAGE,9537,2025-02-25,2025-04-20,False,2025-02-25,2025-07-03
+214,DISC0214,Which Discount,Behavior cup structure under analysis.,35.13,281,FLAT_RATE,9874,2025-06-03,2025-07-30,True,2025-06-03,2025-07-03
+215,DISC0215,Young Discount,Strong nothing money conference.,30.89,435,FLAT_RATE,9503,2025-06-27,2025-11-28,True,2025-06-27,2025-07-03
+216,DISC0216,Market Discount,Kind eight crime return project Congress exactly.,13.7,314,PERCENTAGE,9569,2025-02-25,2025-08-09,True,2025-02-25,2025-07-03
+217,DISC0217,Item Discount,At million might last sea.,17.9,217,FLAT_RATE,9672,2025-03-26,2025-06-09,False,2025-03-26,2025-07-03
+218,DISC0218,Would Discount,Customer sea democratic.,15.34,419,PERCENTAGE,9806,2025-04-23,2025-08-05,True,2025-04-23,2025-07-03
+219,DISC0219,Central Discount,Finally lay political fight I professor.,28.1,377,PERCENTAGE,9660,2025-02-22,2025-06-06,False,2025-02-22,2025-07-03
+220,DISC0220,Certainly Discount,Decade tough admit hard catch area although.,42.53,174,FLAT_RATE,9960,2024-11-27,2025-02-20,False,2024-11-27,2025-07-03
+221,DISC0221,Already Discount,Wish remain relationship policy catch idea value.,29.78,475,FLAT_RATE,9842,2024-12-18,2025-04-08,False,2024-12-18,2025-07-03
+222,DISC0222,Power Discount,Front treat unit poor moment allow.,25.72,420,FLAT_RATE,9927,2025-02-17,2025-03-31,False,2025-02-17,2025-07-03
+223,DISC0223,Research Discount,Others where company.,26.74,410,FLAT_RATE,9628,2025-01-14,2025-06-16,False,2025-01-14,2025-07-03
+224,DISC0224,Industry Discount,Seek best for field ready poor human.,29.88,165,FLAT_RATE,9768,2024-12-19,2025-05-26,False,2024-12-19,2025-07-03
+225,DISC0225,Draw Discount,Total rise deal brother thank laugh.,12.41,257,FLAT_RATE,9553,2025-02-05,2025-07-22,True,2025-02-05,2025-07-03
+226,DISC0226,Wife Discount,Series phone staff leave.,46.13,366,PERCENTAGE,9798,2024-11-07,2025-04-30,False,2024-11-07,2025-07-03
+227,DISC0227,Able Discount,Reality group name eye letter.,7.41,283,PERCENTAGE,9818,2025-04-24,2025-08-16,True,2025-04-24,2025-07-03
+228,DISC0228,Develop Discount,Financial water read year away amount area.,13.06,272,PERCENTAGE,9519,2025-05-25,2025-07-03,False,2025-05-25,2025-07-03
+229,DISC0229,Drive Discount,Evidence nor growth car medical seek.,43.37,215,PERCENTAGE,9726,2025-02-13,2025-06-22,False,2025-02-13,2025-07-03
+230,DISC0230,Million Discount,Yeah deal give determine.,34.61,420,FLAT_RATE,9642,2025-01-10,2025-06-14,False,2025-01-10,2025-07-03
+231,DISC0231,Arm Discount,End article worker edge production kid clear.,27.4,260,FLAT_RATE,9975,2025-05-05,2025-10-14,True,2025-05-05,2025-07-03
+232,DISC0232,Environmental Discount,Term she threat identify bank.,49.05,337,FLAT_RATE,9627,2024-10-27,2025-03-30,False,2024-10-27,2025-07-03
+233,DISC0233,Purpose Discount,Federal fact policy necessary.,17.38,455,FLAT_RATE,9538,2024-08-28,2024-10-11,False,2024-08-28,2025-07-03
+234,DISC0234,Trade Discount,Drop but some Republican.,28.39,311,PERCENTAGE,9512,2024-09-23,2024-12-14,False,2024-09-23,2025-07-03
+235,DISC0235,Have Discount,Memory close issue meet region.,20.57,433,FLAT_RATE,9679,2025-05-01,2025-08-14,True,2025-05-01,2025-07-03
+236,DISC0236,Stay Discount,Major peace several end general.,42.29,137,PERCENTAGE,9651,2025-05-09,2025-10-14,True,2025-05-09,2025-07-03
+237,DISC0237,Wrong Discount,Sit toward situation such yourself already.,11.64,392,FLAT_RATE,9665,2025-03-02,2025-06-02,False,2025-03-02,2025-07-03
+238,DISC0238,Decide Discount,Western determine my now carry.,32.76,74,FLAT_RATE,9809,2024-09-14,2025-02-15,False,2024-09-14,2025-07-03
+239,DISC0239,According Discount,Song system of sign. Area same quickly.,9.47,273,PERCENTAGE,9627,2024-10-25,2025-03-09,False,2024-10-25,2025-07-03
+240,DISC0240,Down Discount,Move particularly north just hit day.,36.66,241,FLAT_RATE,9863,2024-12-26,2025-04-24,False,2024-12-26,2025-07-03
+241,DISC0241,Treatment Discount,Follow think develop first crime situation six.,8.26,146,FLAT_RATE,9890,2025-04-12,2025-09-09,True,2025-04-12,2025-07-03
+242,DISC0242,Relate Discount,Talk might standard my store room.,11.21,376,FLAT_RATE,9764,2025-03-04,2025-08-22,True,2025-03-04,2025-07-03
+243,DISC0243,Crime Discount,Weight heart live go drive than worker door.,34.09,191,PERCENTAGE,9707,2025-04-06,2025-08-29,True,2025-04-06,2025-07-03
+244,DISC0244,Smile Discount,For others continue term.,23.11,67,FLAT_RATE,9835,2025-06-29,2025-08-16,True,2025-06-29,2025-07-03
+245,DISC0245,Question Discount,West open with audience fact executive read.,13.31,408,PERCENTAGE,9998,2024-09-23,2024-11-19,False,2024-09-23,2025-07-03
+246,DISC0246,Question Discount,Unit production impact ready wide teacher.,17.25,165,FLAT_RATE,9676,2025-06-20,2025-10-04,True,2025-06-20,2025-07-03
+247,DISC0247,Expert Discount,Lead administration four might.,41.47,224,FLAT_RATE,9671,2025-01-10,2025-06-16,False,2025-01-10,2025-07-03
+248,DISC0248,Walk Discount,Write grow summer several.,30.33,204,PERCENTAGE,9890,2024-10-22,2024-12-15,False,2024-10-22,2025-07-03
+249,DISC0249,Fish Discount,Serve bit particular.,12.72,243,PERCENTAGE,9951,2025-06-18,2025-09-10,True,2025-06-18,2025-07-03
+250,DISC0250,Leave Discount,Let give all number.,38.37,478,FLAT_RATE,9676,2024-08-31,2025-01-03,False,2024-08-31,2025-07-03
+251,DISC0251,Wonder Discount,Ask growth other establish store so.,40.94,368,PERCENTAGE,9628,2025-02-09,2025-04-13,False,2025-02-09,2025-07-03
+252,DISC0252,Want Discount,He seem American need door believe.,16.45,377,PERCENTAGE,9788,2024-11-30,2025-01-20,False,2024-11-30,2025-07-03
+253,DISC0253,Evidence Discount,Two hope listen. Opportunity name show effect.,12.96,374,FLAT_RATE,9899,2024-09-18,2024-12-22,False,2024-09-18,2025-07-03
+254,DISC0254,Quite Discount,Purpose heart care quality Mrs choice bar.,34.51,264,PERCENTAGE,9774,2024-09-22,2025-01-03,False,2024-09-22,2025-07-03
+255,DISC0255,Follow Discount,Current reality green able involve.,14.49,355,PERCENTAGE,9926,2024-11-29,2025-05-13,False,2024-11-29,2025-07-03
+256,DISC0256,Identify Discount,Including commercial citizen stage visit deep.,11.57,106,PERCENTAGE,9646,2024-11-06,2025-03-25,False,2024-11-06,2025-07-03
+257,DISC0257,They Discount,Senior someone possible.,24.78,51,PERCENTAGE,9688,2024-07-16,2024-12-02,False,2024-07-16,2025-07-03
+258,DISC0258,Yourself Discount,News across remain save.,7.23,206,FLAT_RATE,9689,2025-05-03,2025-08-04,True,2025-05-03,2025-07-03
+259,DISC0259,Ever Discount,Law economy run without. Bad writer authority by.,47.71,307,FLAT_RATE,9681,2024-07-28,2024-09-21,False,2024-07-28,2025-07-03
+260,DISC0260,Enjoy Discount,Glass world station since.,34.32,389,FLAT_RATE,9538,2024-12-05,2025-03-03,False,2024-12-05,2025-07-03
+261,DISC0261,Realize Discount,Wonder all stand water yeah even institution ask.,5.25,305,FLAT_RATE,9820,2024-10-22,2025-03-23,False,2024-10-22,2025-07-03
+262,DISC0262,Shake Discount,Century month mind small institution.,37.42,214,FLAT_RATE,9548,2025-02-11,2025-05-28,False,2025-02-11,2025-07-03
+263,DISC0263,Parent Discount,Beyond different base indeed movement.,23.51,226,PERCENTAGE,9919,2024-10-12,2025-01-02,False,2024-10-12,2025-07-03
+264,DISC0264,Street Discount,Analysis fine civil assume mention.,47.72,273,PERCENTAGE,9779,2024-12-15,2025-02-23,False,2024-12-15,2025-07-03
+265,DISC0265,Special Discount,Letter study eat minute ready.,45.36,464,FLAT_RATE,9694,2024-11-18,2024-12-22,False,2024-11-18,2025-07-03
+266,DISC0266,Event Discount,Its marriage east argue admit.,46.32,471,FLAT_RATE,9625,2025-02-03,2025-04-28,False,2025-02-03,2025-07-03
+267,DISC0267,There Discount,Sit account return skill appear computer indeed.,22.81,421,FLAT_RATE,9948,2025-05-30,2025-09-14,True,2025-05-30,2025-07-03
+268,DISC0268,Very Discount,City less despite him civil someone.,20.69,176,PERCENTAGE,9665,2025-04-13,2025-05-24,False,2025-04-13,2025-07-03
+269,DISC0269,Loss Discount,About likely local behind price shoulder.,43.05,307,PERCENTAGE,9692,2024-07-19,2024-11-13,False,2024-07-19,2025-07-03
+270,DISC0270,Way Discount,Line dog interesting character source.,35.4,99,FLAT_RATE,9978,2025-06-24,2025-09-21,True,2025-06-24,2025-07-03
+271,DISC0271,Late Discount,Side seven push time investment piece.,11.19,274,FLAT_RATE,9516,2024-07-30,2024-12-12,False,2024-07-30,2025-07-03
+272,DISC0272,Training Discount,Else field general total expect become.,7.04,65,PERCENTAGE,9551,2024-08-10,2025-01-22,False,2024-08-10,2025-07-03
+273,DISC0273,Relationship Discount,Arrive true his weight affect.,33.83,432,FLAT_RATE,9806,2024-10-15,2025-01-29,False,2024-10-15,2025-07-03
+274,DISC0274,Base Discount,Onto bit listen yet election partner.,31.89,287,PERCENTAGE,9931,2024-07-31,2024-12-26,False,2024-07-31,2025-07-03
+275,DISC0275,Clear Discount,Moment service leader only stuff side our adult.,33.14,182,FLAT_RATE,9614,2025-04-28,2025-09-23,True,2025-04-28,2025-07-03
+276,DISC0276,Rock Discount,Great thank later each during already yeah.,26.66,324,PERCENTAGE,9939,2025-02-28,2025-05-07,False,2025-02-28,2025-07-03
+277,DISC0277,Author Discount,Most assume compare fire song resource.,34.05,326,FLAT_RATE,9985,2024-11-22,2025-02-10,False,2024-11-22,2025-07-03
+278,DISC0278,Up Discount,Answer heavy scene recent hand.,20.68,163,FLAT_RATE,9540,2025-05-26,2025-08-10,True,2025-05-26,2025-07-03
+279,DISC0279,Vote Discount,Government population deal hope keep.,12.13,302,FLAT_RATE,9874,2024-07-16,2024-12-22,False,2024-07-16,2025-07-03
+280,DISC0280,Available Discount,Accept social his few.,12.79,358,FLAT_RATE,9911,2024-08-15,2025-01-17,False,2024-08-15,2025-07-03
+281,DISC0281,About Discount,I front close plan maybe quality into.,9.77,184,FLAT_RATE,9840,2025-03-04,2025-04-07,False,2025-03-04,2025-07-03
+282,DISC0282,Manage Discount,Follow represent above participant score type.,39.32,159,PERCENTAGE,9711,2025-05-05,2025-06-17,False,2025-05-05,2025-07-03
+283,DISC0283,Risk Discount,Fill believe themselves single.,15.82,462,FLAT_RATE,9557,2025-05-20,2025-07-04,True,2025-05-20,2025-07-03
+284,DISC0284,Agree Discount,Couple herself plant magazine be right better.,10.87,371,PERCENTAGE,9745,2025-04-18,2025-06-24,False,2025-04-18,2025-07-03
+285,DISC0285,Might Discount,Could may fast production. Suffer citizen stand.,17.43,456,PERCENTAGE,9953,2025-03-19,2025-06-28,False,2025-03-19,2025-07-03
+286,DISC0286,Book Discount,Most nothing however skin loss other city.,13.52,95,PERCENTAGE,9696,2024-10-02,2024-11-01,False,2024-10-02,2025-07-03
+287,DISC0287,Lose Discount,Interest look task score either.,26.31,89,PERCENTAGE,9602,2024-09-19,2025-01-05,False,2024-09-19,2025-07-03
+288,DISC0288,Relationship Discount,Front television production maybe more benefit.,13.72,371,FLAT_RATE,9658,2025-02-23,2025-04-18,False,2025-02-23,2025-07-03
+289,DISC0289,Wind Discount,Where social seek event throw. Memory late nice.,30.72,211,FLAT_RATE,9845,2025-03-12,2025-05-26,False,2025-03-12,2025-07-03
+290,DISC0290,Suffer Discount,Artist realize head prepare.,31.18,331,PERCENTAGE,9616,2024-10-15,2025-01-06,False,2024-10-15,2025-07-03
+291,DISC0291,Matter Discount,Cost quite center those idea.,41.65,79,FLAT_RATE,9577,2024-10-09,2024-11-16,False,2024-10-09,2025-07-03
+292,DISC0292,Hard Discount,Skill never sometimes amount standard yet.,10.81,360,PERCENTAGE,9728,2024-12-27,2025-05-20,False,2024-12-27,2025-07-03
+293,DISC0293,Decade Discount,Reduce while face attack she thought return.,48.72,464,FLAT_RATE,9756,2025-06-15,2025-09-07,True,2025-06-15,2025-07-03
+294,DISC0294,Key Discount,Artist figure cup statement full.,14.1,294,FLAT_RATE,9888,2025-04-22,2025-06-24,False,2025-04-22,2025-07-03
+295,DISC0295,Around Discount,Marriage staff cup idea. Interest rule street.,19.82,414,FLAT_RATE,9583,2025-03-27,2025-05-23,False,2025-03-27,2025-07-03
+296,DISC0296,High Discount,Fall clear edge voice agent strong.,39.71,289,PERCENTAGE,9528,2025-04-02,2025-09-14,True,2025-04-02,2025-07-03
+297,DISC0297,Explain Discount,Main ten daughter true message hot religious.,32.0,109,FLAT_RATE,9662,2024-09-20,2024-11-03,False,2024-09-20,2025-07-03
+298,DISC0298,Recognize Discount,Happy individual family try necessary.,29.39,184,PERCENTAGE,9937,2024-08-03,2025-01-09,False,2024-08-03,2025-07-03
+299,DISC0299,Market Discount,Listen home who face person least movie.,42.49,385,PERCENTAGE,9547,2025-06-27,2025-11-30,True,2025-06-27,2025-07-03
+300,DISC0300,Station Discount,Half whom try show wish summer.,26.1,85,FLAT_RATE,9608,2024-08-29,2024-09-29,False,2024-08-29,2025-07-03
+301,DISC0301,Many Discount,Customer shake some already.,38.49,405,PERCENTAGE,9698,2024-07-29,2025-01-11,False,2024-07-29,2025-07-03
+302,DISC0302,Close Discount,Television news entire huge majority song.,25.82,212,FLAT_RATE,9750,2024-07-11,2025-01-06,False,2024-07-11,2025-07-03
+303,DISC0303,Live Discount,Interest hair into field allow see surface.,27.72,470,PERCENTAGE,9632,2025-05-28,2025-07-19,True,2025-05-28,2025-07-03
+304,DISC0304,Whether Discount,Leader both which huge responsibility.,38.93,160,PERCENTAGE,9839,2025-05-17,2025-06-24,False,2025-05-17,2025-07-03
+305,DISC0305,Cost Discount,Discuss save responsibility national.,45.16,141,PERCENTAGE,9836,2025-01-19,2025-05-02,False,2025-01-19,2025-07-03
+306,DISC0306,Whose Discount,Interview buy democratic still open budget.,45.67,214,PERCENTAGE,9676,2025-05-03,2025-07-02,False,2025-05-03,2025-07-03
+307,DISC0307,Process Discount,Challenge any center activity simply.,10.97,482,PERCENTAGE,9965,2024-10-14,2024-12-09,False,2024-10-14,2025-07-03
+308,DISC0308,Group Discount,Upon rock score last prevent three.,25.14,111,FLAT_RATE,9847,2024-11-10,2025-03-14,False,2024-11-10,2025-07-03
+309,DISC0309,Performance Discount,Culture shake political kid check concern hour.,22.86,132,FLAT_RATE,9829,2024-09-16,2024-11-10,False,2024-09-16,2025-07-03
+310,DISC0310,Political Discount,Child plan thousand page ask officer.,42.93,342,FLAT_RATE,9734,2024-07-08,2024-12-28,False,2024-07-08,2025-07-03
+311,DISC0311,Employee Discount,Subject own general different win role.,49.16,145,PERCENTAGE,9853,2024-09-10,2025-01-01,False,2024-09-10,2025-07-03
+312,DISC0312,New Discount,Each not then choose.,34.46,178,FLAT_RATE,9531,2025-06-29,2025-10-27,True,2025-06-29,2025-07-03
+313,DISC0313,Direction Discount,Within heavy strategy brother person order want.,21.66,338,PERCENTAGE,9844,2024-09-23,2024-10-26,False,2024-09-23,2025-07-03
+314,DISC0314,Mention Discount,City her wait. Tonight trip indeed produce.,31.09,490,FLAT_RATE,9749,2024-11-01,2024-12-20,False,2024-11-01,2025-07-03
+315,DISC0315,Available Discount,Likely successful near manage.,47.48,404,FLAT_RATE,9882,2025-03-04,2025-05-22,False,2025-03-04,2025-07-03
+316,DISC0316,Commercial Discount,Nearly million prepare home. Must identify join.,16.19,277,PERCENTAGE,9735,2024-07-07,2024-10-29,False,2024-07-07,2025-07-03
+317,DISC0317,Class Discount,Ask hold finish art sometimes specific.,27.32,155,FLAT_RATE,9734,2025-01-26,2025-05-23,False,2025-01-26,2025-07-03
+318,DISC0318,Spend Discount,Service sport color kind.,28.3,382,FLAT_RATE,9961,2024-08-05,2024-10-07,False,2024-08-05,2025-07-03
+319,DISC0319,Why Discount,So ever relate.,28.89,303,PERCENTAGE,9524,2024-09-02,2025-02-02,False,2024-09-02,2025-07-03
+320,DISC0320,Sound Discount,Order myself fund heavy administration economy.,27.82,328,FLAT_RATE,9627,2025-06-04,2025-07-24,True,2025-06-04,2025-07-03
+321,DISC0321,Cost Discount,Wrong among those baby ask.,45.39,466,PERCENTAGE,9532,2025-04-01,2025-06-29,False,2025-04-01,2025-07-03
+322,DISC0322,Consumer Discount,Firm represent movie ground.,41.34,285,FLAT_RATE,9613,2025-06-14,2025-09-20,True,2025-06-14,2025-07-03
+323,DISC0323,Most Discount,Cost glass identify with.,7.05,86,PERCENTAGE,9586,2024-07-25,2024-12-01,False,2024-07-25,2025-07-03
+324,DISC0324,Shoulder Discount,Air wish picture them soldier.,46.09,456,FLAT_RATE,9863,2024-10-19,2025-04-15,False,2024-10-19,2025-07-03
+325,DISC0325,Protect Discount,Arrive fine education this.,18.26,136,FLAT_RATE,9988,2025-02-18,2025-04-03,False,2025-02-18,2025-07-03
+326,DISC0326,Drug Discount,Same camera look about Republican.,42.49,232,FLAT_RATE,9611,2024-12-30,2025-03-18,False,2024-12-30,2025-07-03
+327,DISC0327,Fight Discount,Sense factor artist most win child woman.,24.05,310,PERCENTAGE,9877,2024-12-21,2025-03-13,False,2024-12-21,2025-07-03
+328,DISC0328,Soldier Discount,Yourself central type decade box.,28.18,163,PERCENTAGE,9641,2024-07-26,2024-12-30,False,2024-07-26,2025-07-03
+329,DISC0329,Perform Discount,Either eye forward card tree everyone than.,33.02,62,PERCENTAGE,9546,2025-02-22,2025-07-31,True,2025-02-22,2025-07-03
+330,DISC0330,Voice Discount,Law society somebody evening easy view.,13.68,182,FLAT_RATE,9543,2025-04-20,2025-07-02,False,2025-04-20,2025-07-03
+331,DISC0331,Our Discount,Bad see senior population.,24.89,337,PERCENTAGE,9811,2025-07-01,2025-10-17,True,2025-07-01,2025-07-03
+332,DISC0332,Account Discount,Whose change pretty newspaper success.,48.67,381,PERCENTAGE,9609,2025-03-14,2025-06-25,False,2025-03-14,2025-07-03
+333,DISC0333,Catch Discount,Media watch describe base charge get.,19.38,366,PERCENTAGE,9563,2024-12-03,2025-05-08,False,2024-12-03,2025-07-03
+334,DISC0334,Right Discount,Because medical on rest.,37.79,126,PERCENTAGE,9651,2025-06-29,2025-10-19,True,2025-06-29,2025-07-03
+335,DISC0335,Wrong Discount,Six sign economic race end position.,40.28,356,FLAT_RATE,9570,2024-09-28,2025-01-26,False,2024-09-28,2025-07-03
+336,DISC0336,Course Discount,Run into however thank his take sea.,27.08,487,PERCENTAGE,9699,2025-06-05,2025-10-05,True,2025-06-05,2025-07-03
+337,DISC0337,Simply Discount,Possible scientist current fast cell.,10.26,262,PERCENTAGE,9733,2024-11-01,2025-01-03,False,2024-11-01,2025-07-03
+338,DISC0338,Deep Discount,Miss home church.,30.76,95,PERCENTAGE,9743,2025-06-29,2025-12-10,True,2025-06-29,2025-07-03
+339,DISC0339,Today Discount,Cost many if say system more.,28.21,88,PERCENTAGE,9667,2025-03-11,2025-04-29,False,2025-03-11,2025-07-03
+340,DISC0340,Whom Discount,Learn language occur enjoy follow factor.,43.41,438,FLAT_RATE,9609,2025-01-02,2025-04-24,False,2025-01-02,2025-07-03
+341,DISC0341,Position Discount,Race gas sense.,24.72,476,FLAT_RATE,9651,2025-05-19,2025-10-21,True,2025-05-19,2025-07-03
+342,DISC0342,Indicate Discount,Nature next office likely quickly all.,35.54,364,PERCENTAGE,9898,2024-08-27,2024-11-19,False,2024-08-27,2025-07-03
+343,DISC0343,Player Discount,Some analysis discussion five.,21.28,399,PERCENTAGE,9916,2024-07-31,2024-10-09,False,2024-07-31,2025-07-03
+344,DISC0344,Growth Discount,Within size network record consider off major.,45.95,303,PERCENTAGE,9719,2025-03-09,2025-06-19,False,2025-03-09,2025-07-03
+345,DISC0345,Cause Discount,Ahead already cover require rock let.,36.75,241,FLAT_RATE,9526,2025-03-31,2025-06-12,False,2025-03-31,2025-07-03
+346,DISC0346,By Discount,Top believe once product left bag that southern.,38.37,303,PERCENTAGE,9742,2024-11-26,2025-03-05,False,2024-11-26,2025-07-03
+347,DISC0347,Get Discount,Raise report goal benefit fall.,21.2,215,PERCENTAGE,9886,2024-11-27,2025-02-06,False,2024-11-27,2025-07-03
+348,DISC0348,Agree Discount,Edge again chair no choose.,30.65,101,FLAT_RATE,9744,2025-02-12,2025-06-14,False,2025-02-12,2025-07-03
+349,DISC0349,Know Discount,Land second contain.,38.05,261,FLAT_RATE,9782,2025-01-12,2025-04-22,False,2025-01-12,2025-07-03
+350,DISC0350,Build Discount,Never close answer glass prove reflect resource.,22.17,216,PERCENTAGE,9926,2024-11-26,2025-05-16,False,2024-11-26,2025-07-03
+351,DISC0351,By Discount,Nearly evidence run.,13.9,201,PERCENTAGE,9761,2024-12-07,2025-03-05,False,2024-12-07,2025-07-03
+352,DISC0352,Should Discount,Movie what increase maybe participant pattern.,32.79,211,PERCENTAGE,9725,2024-10-09,2024-12-29,False,2024-10-09,2025-07-03
+353,DISC0353,Kitchen Discount,More nor campaign lose fill minute.,26.08,70,PERCENTAGE,9915,2025-04-02,2025-06-01,False,2025-04-02,2025-07-03
+354,DISC0354,Real Discount,Area special avoid know.,12.83,131,PERCENTAGE,9935,2025-03-28,2025-07-06,True,2025-03-28,2025-07-03
+355,DISC0355,Reach Discount,Day base say. Describe huge add game.,12.15,331,PERCENTAGE,9550,2025-02-18,2025-08-11,True,2025-02-18,2025-07-03
+356,DISC0356,Other Discount,Human dinner official sport test section.,34.97,157,PERCENTAGE,9622,2025-05-27,2025-10-18,True,2025-05-27,2025-07-03
+357,DISC0357,Degree Discount,Few read at be. Memory be yeah teacher wall.,48.86,397,PERCENTAGE,9558,2024-07-13,2024-11-27,False,2024-07-13,2025-07-03
+358,DISC0358,Threat Discount,Note term deep daughter consider certain trade.,25.37,410,PERCENTAGE,9889,2024-08-25,2025-01-15,False,2024-08-25,2025-07-03
+359,DISC0359,Once Discount,So anything happy he sound. Wall prepare type.,28.63,99,FLAT_RATE,9859,2024-09-14,2024-10-25,False,2024-09-14,2025-07-03
+360,DISC0360,Represent Discount,High investment total.,23.5,395,FLAT_RATE,9845,2025-05-26,2025-11-01,True,2025-05-26,2025-07-03
+361,DISC0361,Form Discount,Soon little heart road.,43.04,343,PERCENTAGE,9931,2024-11-21,2025-01-16,False,2024-11-21,2025-07-03
+362,DISC0362,Require Discount,Great discussion green perform include most none.,27.31,342,FLAT_RATE,9724,2025-03-12,2025-08-23,True,2025-03-12,2025-07-03
+363,DISC0363,Work Discount,Successful buy college board send.,22.29,189,FLAT_RATE,9750,2025-01-27,2025-03-14,False,2025-01-27,2025-07-03
+364,DISC0364,Most Discount,Past four inside there.,6.32,160,PERCENTAGE,9619,2025-03-31,2025-05-25,False,2025-03-31,2025-07-03
+365,DISC0365,Institution Discount,Coach future practice decision number article.,27.85,261,FLAT_RATE,9635,2025-01-29,2025-03-08,False,2025-01-29,2025-07-03
+366,DISC0366,Magazine Discount,Perhaps might class indicate major son claim.,46.43,444,PERCENTAGE,9566,2024-07-05,2024-11-12,False,2024-07-05,2025-07-03
+367,DISC0367,Research Discount,Little Mrs member special. Issue truth chance.,34.03,451,PERCENTAGE,9543,2024-08-08,2024-11-21,False,2024-08-08,2025-07-03
+368,DISC0368,Study Discount,Trial dog job ago season left price.,42.11,412,PERCENTAGE,9970,2025-04-20,2025-08-02,True,2025-04-20,2025-07-03
+369,DISC0369,Performance Discount,Civil security rather. Information wide own.,21.1,204,PERCENTAGE,9860,2024-11-02,2025-03-21,False,2024-11-02,2025-07-03
+370,DISC0370,Size Discount,Community south ever thus again.,20.72,390,FLAT_RATE,9688,2024-09-10,2024-12-12,False,2024-09-10,2025-07-03
+371,DISC0371,Week Discount,Develop situation as bar boy.,40.28,71,FLAT_RATE,9980,2024-07-29,2025-01-20,False,2024-07-29,2025-07-03
+372,DISC0372,Soon Discount,Maybe along charge upon smile stock material.,16.32,433,PERCENTAGE,9600,2025-03-20,2025-08-18,True,2025-03-20,2025-07-03
+373,DISC0373,Grow Discount,Maybe as prepare today. Town create even choice.,48.96,304,PERCENTAGE,9699,2024-08-17,2024-10-03,False,2024-08-17,2025-07-03
+374,DISC0374,Fight Discount,Someone as nice special cup performance.,10.94,124,FLAT_RATE,9861,2024-11-01,2024-12-14,False,2024-11-01,2025-07-03
+375,DISC0375,None Discount,Kid car probably center.,19.41,349,FLAT_RATE,9665,2025-04-05,2025-07-14,True,2025-04-05,2025-07-03
+376,DISC0376,Director Discount,Also way call reality.,25.83,75,FLAT_RATE,9898,2024-10-13,2025-02-17,False,2024-10-13,2025-07-03
+377,DISC0377,Purpose Discount,Take speak push work language.,48.62,117,FLAT_RATE,9502,2024-11-27,2025-03-01,False,2024-11-27,2025-07-03
+378,DISC0378,Fear Discount,Themselves something rate good step industry.,19.92,302,FLAT_RATE,9609,2025-05-16,2025-06-21,False,2025-05-16,2025-07-03
+379,DISC0379,Prevent Discount,Keep about why charge style case way.,8.12,284,FLAT_RATE,9894,2024-11-11,2025-04-15,False,2024-11-11,2025-07-03
+380,DISC0380,Word Discount,Mention ahead lead maintain go every note.,23.12,299,PERCENTAGE,9666,2024-12-13,2025-02-24,False,2024-12-13,2025-07-03
+381,DISC0381,Employee Discount,Voice work also computer right pass.,6.88,285,FLAT_RATE,9616,2025-03-10,2025-08-24,True,2025-03-10,2025-07-03
+382,DISC0382,It Discount,Practice impact picture ok tonight.,30.41,305,FLAT_RATE,9882,2025-06-11,2025-08-09,True,2025-06-11,2025-07-03
+383,DISC0383,Term Discount,Their painting past alone stuff.,14.3,311,FLAT_RATE,9503,2025-06-09,2025-08-03,True,2025-06-09,2025-07-03
+384,DISC0384,Produce Discount,Address company daughter outside fear.,13.44,382,PERCENTAGE,9760,2025-05-04,2025-08-10,True,2025-05-04,2025-07-03
+385,DISC0385,Blood Discount,Treat husband outside company full between hard.,40.82,296,PERCENTAGE,9944,2024-07-09,2024-12-14,False,2024-07-09,2025-07-03
+386,DISC0386,Tell Discount,Perhaps myself see performance. Will wide music.,45.63,54,PERCENTAGE,9898,2025-03-21,2025-07-04,True,2025-03-21,2025-07-03
+387,DISC0387,Exist Discount,Trouble growth health likely staff arm lead.,19.47,280,FLAT_RATE,9691,2025-04-23,2025-07-20,True,2025-04-23,2025-07-03
+388,DISC0388,Most Discount,Consider reality training song our crime vote.,6.69,257,PERCENTAGE,9532,2025-06-20,2025-07-26,True,2025-06-20,2025-07-03
+389,DISC0389,Impact Discount,Herself challenge sport member personal phone.,5.15,103,FLAT_RATE,9912,2024-07-18,2024-08-20,False,2024-07-18,2025-07-03
+390,DISC0390,Daughter Discount,Late language model it white run available.,27.97,140,FLAT_RATE,9895,2025-06-15,2025-10-30,True,2025-06-15,2025-07-03
+391,DISC0391,Enough Discount,Democrat administration agree wall task shake.,46.34,151,PERCENTAGE,9563,2024-07-03,2024-08-04,False,2024-07-03,2025-07-03
+392,DISC0392,Show Discount,Very officer factor. Decade future resource.,27.22,430,PERCENTAGE,9793,2025-01-21,2025-05-17,False,2025-01-21,2025-07-03
+393,DISC0393,Among Discount,Difficult director force guess.,8.81,229,PERCENTAGE,9849,2024-08-27,2024-09-26,False,2024-08-27,2025-07-03
+394,DISC0394,Social Discount,Home cut teacher per.,49.33,495,PERCENTAGE,9649,2024-11-11,2025-02-17,False,2024-11-11,2025-07-03
+395,DISC0395,It Discount,Quite here sense. His book language improve.,17.33,249,FLAT_RATE,9839,2025-05-30,2025-10-15,True,2025-05-30,2025-07-03
+396,DISC0396,Data Discount,Leader gas sea blood imagine.,30.46,205,PERCENTAGE,9870,2024-07-21,2024-11-24,False,2024-07-21,2025-07-03
+397,DISC0397,Politics Discount,Yes one western authority student.,49.44,449,FLAT_RATE,9991,2025-02-21,2025-08-19,True,2025-02-21,2025-07-03
+398,DISC0398,Manage Discount,Can former be skill occur wide.,16.1,429,FLAT_RATE,9978,2025-03-13,2025-05-25,False,2025-03-13,2025-07-03
+399,DISC0399,Change Discount,Example happen already rest bag.,13.76,212,PERCENTAGE,9750,2025-05-15,2025-08-27,True,2025-05-15,2025-07-03
+400,DISC0400,First Discount,Garden little important company.,20.14,278,FLAT_RATE,9987,2024-11-01,2025-01-30,False,2024-11-01,2025-07-03
+401,DISC0401,Network Discount,Letter summer ready.,21.05,83,PERCENTAGE,9738,2025-04-26,2025-08-23,True,2025-04-26,2025-07-03
+402,DISC0402,Practice Discount,Instead when shake only air medical.,47.46,220,PERCENTAGE,9706,2024-09-26,2025-02-22,False,2024-09-26,2025-07-03
+403,DISC0403,Often Discount,Nation fire task present hospital here act.,49.63,485,FLAT_RATE,9545,2025-02-13,2025-06-08,False,2025-02-13,2025-07-03
+404,DISC0404,Life Discount,Growth put throughout with especially success.,45.74,258,FLAT_RATE,9898,2024-09-08,2025-03-02,False,2024-09-08,2025-07-03
+405,DISC0405,Difference Discount,Fight get soldier another reach.,25.06,184,PERCENTAGE,9656,2024-08-10,2024-12-29,False,2024-08-10,2025-07-03
+406,DISC0406,Life Discount,Fact couple since actually peace.,37.4,157,PERCENTAGE,9580,2024-12-20,2025-03-14,False,2024-12-20,2025-07-03
+407,DISC0407,Purpose Discount,Happy firm future already.,10.66,244,PERCENTAGE,9662,2024-11-21,2025-02-01,False,2024-11-21,2025-07-03
+408,DISC0408,Thank Discount,Respond song nor state perhaps.,19.92,120,FLAT_RATE,9803,2025-03-31,2025-09-18,True,2025-03-31,2025-07-03
+409,DISC0409,Sell Discount,Pick activity ability who outside our power.,20.9,309,PERCENTAGE,9555,2025-06-04,2025-07-18,True,2025-06-04,2025-07-03
+410,DISC0410,Air Discount,Must apply policy probably.,40.67,208,FLAT_RATE,9849,2025-05-13,2025-09-15,True,2025-05-13,2025-07-03
+411,DISC0411,Specific Discount,Soon official money send. Talk common hotel he.,15.77,189,PERCENTAGE,9648,2024-12-01,2025-04-26,False,2024-12-01,2025-07-03
+412,DISC0412,Own Discount,Budget relate toward parent something act.,28.14,295,FLAT_RATE,9683,2025-05-27,2025-07-29,True,2025-05-27,2025-07-03
+413,DISC0413,Point Discount,Sometimes include firm project.,22.74,75,FLAT_RATE,9664,2024-11-24,2025-04-07,False,2024-11-24,2025-07-03
+414,DISC0414,Family Discount,Safe pull drug.,26.06,282,PERCENTAGE,9515,2025-06-17,2025-11-05,True,2025-06-17,2025-07-03
+415,DISC0415,Everyone Discount,Bill next fund most though total.,42.83,127,PERCENTAGE,9611,2024-09-18,2025-01-18,False,2024-09-18,2025-07-03
+416,DISC0416,Similar Discount,Break remain way majority.,8.13,79,PERCENTAGE,9793,2024-07-03,2024-12-22,False,2024-07-03,2025-07-03
+417,DISC0417,True Discount,Near technology real likely long heavy.,37.6,492,PERCENTAGE,9768,2024-10-19,2024-12-20,False,2024-10-19,2025-07-03
+418,DISC0418,Evening Discount,Glass but although somebody hope.,5.91,209,FLAT_RATE,9767,2025-06-23,2025-12-05,True,2025-06-23,2025-07-03
+419,DISC0419,Represent Discount,Share health how change.,18.51,52,PERCENTAGE,9814,2025-06-02,2025-10-24,True,2025-06-02,2025-07-03
+420,DISC0420,Point Discount,Man enough suddenly break.,36.36,135,PERCENTAGE,9675,2025-03-14,2025-05-28,False,2025-03-14,2025-07-03
+421,DISC0421,Join Discount,Scene majority child. Since base why bag.,24.06,458,PERCENTAGE,9997,2024-08-18,2024-10-02,False,2024-08-18,2025-07-03
+422,DISC0422,Series Discount,Gas computer great. Power drop month never that.,8.0,343,PERCENTAGE,9651,2025-01-05,2025-06-29,False,2025-01-05,2025-07-03
+423,DISC0423,Natural Discount,Unit develop north friend space international.,45.53,201,FLAT_RATE,9986,2024-09-27,2024-12-11,False,2024-09-27,2025-07-03
+424,DISC0424,Chance Discount,Fear argue soldier business born.,21.03,389,PERCENTAGE,9932,2024-07-23,2024-10-08,False,2024-07-23,2025-07-03
+425,DISC0425,Become Discount,Likely since our son marriage great.,43.34,297,PERCENTAGE,9749,2024-09-04,2024-12-07,False,2024-09-04,2025-07-03
+426,DISC0426,Toward Discount,Admit avoid building.,10.22,196,FLAT_RATE,9899,2024-10-26,2025-03-28,False,2024-10-26,2025-07-03
+427,DISC0427,Most Discount,Less half stop nor. Great say shoulder age.,22.94,442,FLAT_RATE,9845,2024-07-16,2024-10-15,False,2024-07-16,2025-07-03
+428,DISC0428,Best Discount,Back almost ago expect.,21.79,306,FLAT_RATE,9652,2024-08-23,2025-02-01,False,2024-08-23,2025-07-03
+429,DISC0429,Debate Discount,Blood our game house.,40.73,372,PERCENTAGE,9996,2024-07-27,2024-10-01,False,2024-07-27,2025-07-03
+430,DISC0430,Oil Discount,Personal more yeah upon.,31.87,441,PERCENTAGE,9908,2024-10-13,2025-03-12,False,2024-10-13,2025-07-03
+431,DISC0431,Most Discount,New front stand environment already.,39.93,244,PERCENTAGE,9508,2024-10-22,2025-03-30,False,2024-10-22,2025-07-03
+432,DISC0432,Message Discount,Speak professor cell hope bill prepare wish.,20.77,60,PERCENTAGE,9859,2024-12-10,2025-05-19,False,2024-12-10,2025-07-03
+433,DISC0433,Smile Discount,Weight authority technology senior.,26.42,359,FLAT_RATE,9726,2024-12-24,2025-03-19,False,2024-12-24,2025-07-03
+434,DISC0434,Eat Discount,Long despite today threat door.,47.28,357,PERCENTAGE,9597,2025-01-01,2025-05-29,False,2025-01-01,2025-07-03
+435,DISC0435,Wide Discount,West positive by move visit.,36.04,53,PERCENTAGE,9633,2024-07-06,2024-12-05,False,2024-07-06,2025-07-03
+436,DISC0436,Notice Discount,Cover center here agent build require.,19.43,98,FLAT_RATE,9773,2024-08-11,2024-12-30,False,2024-08-11,2025-07-03
+437,DISC0437,Friend Discount,Left popular dinner sound.,19.97,355,PERCENTAGE,9917,2024-09-24,2024-12-06,False,2024-09-24,2025-07-03
+438,DISC0438,Pass Discount,Mission admit receive near.,23.98,194,PERCENTAGE,9897,2025-04-16,2025-08-22,True,2025-04-16,2025-07-03
+439,DISC0439,Inside Discount,Baby town should trial part group floor.,26.92,251,FLAT_RATE,9844,2024-11-16,2025-01-29,False,2024-11-16,2025-07-03
+440,DISC0440,Feeling Discount,Yes whose debate reflect.,23.45,116,FLAT_RATE,9670,2025-02-08,2025-04-26,False,2025-02-08,2025-07-03
+441,DISC0441,Any Discount,Rock firm shoulder different side military.,31.19,239,FLAT_RATE,9672,2024-12-15,2025-04-17,False,2024-12-15,2025-07-03
+442,DISC0442,Congress Discount,Through stage art walk discuss off image.,28.77,274,FLAT_RATE,9787,2025-02-09,2025-04-28,False,2025-02-09,2025-07-03
+443,DISC0443,Relate Discount,Drug fish some. Else that time safe arrive.,45.24,402,PERCENTAGE,9932,2024-10-21,2024-11-30,False,2024-10-21,2025-07-03
+444,DISC0444,Choice Discount,Claim account above fight skin statement.,41.27,85,FLAT_RATE,9755,2025-03-19,2025-06-07,False,2025-03-19,2025-07-03
+445,DISC0445,Office Discount,Instead arm mother artist son trade.,16.33,106,PERCENTAGE,9857,2025-06-04,2025-11-28,True,2025-06-04,2025-07-03
+446,DISC0446,Similar Discount,Physical follow people early certainly him bring.,48.7,304,PERCENTAGE,9785,2024-07-09,2024-10-29,False,2024-07-09,2025-07-03
+447,DISC0447,These Discount,Under actually get general service.,12.13,323,FLAT_RATE,9575,2025-03-05,2025-07-31,True,2025-03-05,2025-07-03
+448,DISC0448,Loss Discount,Join class already break sign trial seek prevent.,43.67,499,PERCENTAGE,9597,2025-03-13,2025-06-05,False,2025-03-13,2025-07-03
+449,DISC0449,Mean Discount,Serious especially sign month instead.,17.48,183,PERCENTAGE,9643,2024-08-07,2025-01-28,False,2024-08-07,2025-07-03
+450,DISC0450,Generation Discount,Especially develop than unit old though.,9.19,249,FLAT_RATE,9608,2024-11-15,2025-03-16,False,2024-11-15,2025-07-03
+451,DISC0451,Each Discount,Interview since something around chair memory.,40.5,60,FLAT_RATE,9755,2025-01-15,2025-04-28,False,2025-01-15,2025-07-03
+452,DISC0452,Your Discount,Us close interesting our carry.,30.56,455,PERCENTAGE,9624,2025-03-27,2025-06-21,False,2025-03-27,2025-07-03
+453,DISC0453,Animal Discount,Try reason him hand pick.,12.51,110,PERCENTAGE,9767,2025-06-22,2025-10-08,True,2025-06-22,2025-07-03
+454,DISC0454,Art Discount,Other clear enough.,30.61,95,FLAT_RATE,9938,2025-02-27,2025-08-03,True,2025-02-27,2025-07-03
+455,DISC0455,Sell Discount,By surface research these game traditional.,29.33,271,FLAT_RATE,9616,2025-06-30,2025-09-19,True,2025-06-30,2025-07-03
+456,DISC0456,Enjoy Discount,Lose site property partner hard popular.,40.65,446,FLAT_RATE,9817,2025-06-06,2025-09-16,True,2025-06-06,2025-07-03
+457,DISC0457,Data Discount,Almost effort page enter arrive.,42.21,221,FLAT_RATE,9686,2024-09-18,2024-11-22,False,2024-09-18,2025-07-03
+458,DISC0458,Go Discount,Though focus region wait reach.,16.61,163,PERCENTAGE,9568,2024-10-21,2025-01-07,False,2024-10-21,2025-07-03
+459,DISC0459,Away Discount,Night budget middle computer dark.,19.18,495,PERCENTAGE,9612,2025-01-25,2025-03-23,False,2025-01-25,2025-07-03
+460,DISC0460,Lay Discount,Specific then idea up contain throughout under.,7.87,244,PERCENTAGE,9584,2025-04-17,2025-06-24,False,2025-04-17,2025-07-03
+461,DISC0461,Mr Discount,Religious friend down year image off.,8.68,74,PERCENTAGE,9617,2025-05-09,2025-08-03,True,2025-05-09,2025-07-03
+462,DISC0462,Your Discount,Guy now upon foreign ago.,24.55,439,FLAT_RATE,9961,2024-12-22,2025-05-10,False,2024-12-22,2025-07-03
+463,DISC0463,Seek Discount,Situation prove along about poor hair small.,38.32,174,PERCENTAGE,9696,2024-12-08,2025-02-01,False,2024-12-08,2025-07-03
+464,DISC0464,Away Discount,Him team direction treat.,28.99,268,PERCENTAGE,9651,2024-10-20,2025-04-12,False,2024-10-20,2025-07-03
+465,DISC0465,Piece Discount,Politics voice possible walk.,38.15,349,FLAT_RATE,9710,2025-06-07,2025-09-11,True,2025-06-07,2025-07-03
+466,DISC0466,Community Discount,Bed who last school baby contain common.,23.86,157,PERCENTAGE,9596,2025-06-27,2025-10-14,True,2025-06-27,2025-07-03
+467,DISC0467,Past Discount,Want old itself officer step on her.,8.16,370,FLAT_RATE,9937,2025-05-26,2025-07-01,False,2025-05-26,2025-07-03
+468,DISC0468,It Discount,Vote hotel spend up left.,43.79,77,PERCENTAGE,9866,2025-01-22,2025-04-25,False,2025-01-22,2025-07-03
+469,DISC0469,Consumer Discount,Pick set cultural soldier because.,11.08,260,PERCENTAGE,9700,2025-01-24,2025-03-14,False,2025-01-24,2025-07-03
+470,DISC0470,Cut Discount,Ball mean glass role us around section.,17.26,382,FLAT_RATE,9666,2024-11-08,2025-01-15,False,2024-11-08,2025-07-03
+471,DISC0471,Experience Discount,Prove material your would commercial need her.,29.47,300,FLAT_RATE,9842,2025-04-20,2025-08-26,True,2025-04-20,2025-07-03
+472,DISC0472,Serious Discount,Arrive group wrong blood standard bag either.,19.29,272,PERCENTAGE,9604,2024-08-22,2025-02-18,False,2024-08-22,2025-07-03
+473,DISC0473,Field Discount,School town couple modern explain.,38.9,281,FLAT_RATE,9680,2025-03-26,2025-07-21,True,2025-03-26,2025-07-03
+474,DISC0474,Product Discount,Make tend example last fine.,10.24,470,PERCENTAGE,9896,2025-06-03,2025-07-25,True,2025-06-03,2025-07-03
+475,DISC0475,Crime Discount,Raise bit state identify plan. All off contain.,7.6,257,PERCENTAGE,9948,2024-11-19,2025-02-10,False,2024-11-19,2025-07-03
+476,DISC0476,Hot Discount,Require candidate picture ever record.,13.82,171,FLAT_RATE,9825,2025-02-25,2025-04-22,False,2025-02-25,2025-07-03
+477,DISC0477,Reach Discount,Staff type me.,8.01,249,FLAT_RATE,9761,2024-07-10,2024-12-12,False,2024-07-10,2025-07-03
+478,DISC0478,Which Discount,Near so yet hit reach stop save.,48.79,308,FLAT_RATE,9787,2024-11-07,2025-01-19,False,2024-11-07,2025-07-03
+479,DISC0479,Be Discount,Fill return light keep size war.,8.75,251,PERCENTAGE,9651,2024-08-19,2024-10-19,False,2024-08-19,2025-07-03
+480,DISC0480,Within Discount,Part medical police able in culture wind.,5.61,428,PERCENTAGE,9501,2024-12-28,2025-04-09,False,2024-12-28,2025-07-03
+481,DISC0481,Television Discount,Try out outside test help reality ago.,35.28,131,FLAT_RATE,9568,2025-01-15,2025-06-18,False,2025-01-15,2025-07-03
+482,DISC0482,Mr Discount,West couple describe course road lead.,30.65,329,PERCENTAGE,9919,2024-08-05,2024-11-21,False,2024-08-05,2025-07-03
+483,DISC0483,Color Discount,Position amount back local.,42.97,131,PERCENTAGE,9820,2024-12-17,2025-05-18,False,2024-12-17,2025-07-03
+484,DISC0484,Question Discount,Not answer suffer such fire cause our.,43.5,406,PERCENTAGE,9792,2025-03-02,2025-05-04,False,2025-03-02,2025-07-03
+485,DISC0485,Strategy Discount,Weight use science speak beyond anything.,47.44,302,FLAT_RATE,9576,2024-08-17,2024-12-04,False,2024-08-17,2025-07-03
+486,DISC0486,Statement Discount,Once free either individual experience table.,11.92,363,FLAT_RATE,9851,2025-06-03,2025-11-18,True,2025-06-03,2025-07-03
+487,DISC0487,Image Discount,Forward economic produce such size.,31.89,274,FLAT_RATE,9607,2025-03-19,2025-07-12,True,2025-03-19,2025-07-03
+488,DISC0488,Approach Discount,Pressure per popular message specific friend.,27.55,203,FLAT_RATE,9596,2025-01-14,2025-02-17,False,2025-01-14,2025-07-03
+489,DISC0489,Get Discount,Continue hope happy politics now music financial.,25.97,181,PERCENTAGE,9948,2025-03-30,2025-05-15,False,2025-03-30,2025-07-03
+490,DISC0490,Thank Discount,Sit song produce rock tonight admit create.,39.79,287,FLAT_RATE,9851,2024-10-01,2024-11-16,False,2024-10-01,2025-07-03
+491,DISC0491,Artist Discount,Statement may marriage forget.,32.65,476,FLAT_RATE,9934,2025-06-26,2025-10-12,True,2025-06-26,2025-07-03
+492,DISC0492,Bring Discount,Commercial very data.,5.34,273,FLAT_RATE,9815,2025-06-14,2025-09-16,True,2025-06-14,2025-07-03
+493,DISC0493,International Discount,Artist executive president dream.,10.14,368,FLAT_RATE,9538,2024-12-25,2025-02-16,False,2024-12-25,2025-07-03
+494,DISC0494,Important Discount,Yourself include number south speech bank.,45.79,378,PERCENTAGE,9842,2025-06-25,2025-08-02,True,2025-06-25,2025-07-03
+495,DISC0495,Parent Discount,Pretty individual once against same first.,5.49,197,PERCENTAGE,9874,2025-05-06,2025-10-16,True,2025-05-06,2025-07-03
+496,DISC0496,Through Discount,Decade appear learn expert.,14.15,134,FLAT_RATE,9725,2024-08-17,2025-01-21,False,2024-08-17,2025-07-03
+497,DISC0497,Expert Discount,Natural Republican low resource thank safe.,48.57,466,FLAT_RATE,9627,2025-01-04,2025-04-22,False,2025-01-04,2025-07-03
+498,DISC0498,Raise Discount,Within work interest majority former stock.,23.84,278,FLAT_RATE,9981,2025-01-30,2025-05-02,False,2025-01-30,2025-07-03
+499,DISC0499,Tree Discount,Result cell begin call range project rock wide.,45.9,494,PERCENTAGE,9769,2024-11-03,2025-01-01,False,2024-11-03,2025-07-03
+500,DISC0500,Above Discount,Card both reduce president money public sense.,42.15,313,PERCENTAGE,9622,2025-01-15,2025-04-08,False,2025-01-15,2025-07-03
