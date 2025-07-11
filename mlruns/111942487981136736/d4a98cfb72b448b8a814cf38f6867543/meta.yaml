@@ -1,0 +1,14 @@
+artifact_uri: file:///home/brempong/amalimart%20analysis/AMALIMART-ANALYSIS/mlruns/111942487981136736/d4a98cfb72b448b8a814cf38f6867543/artifacts
+end_time: 1752251206242
+entry_point_name: ''
+experiment_id: '111942487981136736'
+lifecycle_stage: active
+run_id: d4a98cfb72b448b8a814cf38f6867543
+run_name: feature_pipeline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752251206003
+status: 4
+tags: []
+user_id: brempong

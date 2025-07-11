@@ -1,0 +1,313 @@
+antecedents,consequents,support,confidence,lift
+frozenset({'Car Vacuum - Automotive'}),frozenset({'Ballpoint Pens - Office'}),0.03278688524590164,0.6666666666666667,10.166666666666668
+frozenset({'Ballpoint Pens - Office'}),frozenset({'Car Vacuum - Automotive'}),0.03278688524590164,0.5,10.166666666666666
+frozenset({'Ballpoint Pens - Office'}),frozenset({'Notebook - Office'}),0.01639344262295082,0.25,5.083333333333333
+frozenset({'Notebook - Office'}),frozenset({'Ballpoint Pens - Office'}),0.01639344262295082,0.33333333333333337,5.083333333333334
+frozenset({'Ballpoint Pens - Office'}),frozenset({'Pasta - Grocery'}),0.01639344262295082,0.25,2.5416666666666665
+frozenset({'Pasta - Grocery'}),frozenset({'Ballpoint Pens - Office'}),0.01639344262295082,0.16666666666666669,2.541666666666667
+frozenset({'Sneakers - Fashion'}),frozenset({'Ballpoint Pens - Office'}),0.01639344262295082,0.33333333333333337,5.083333333333334
+frozenset({'Ballpoint Pens - Office'}),frozenset({'Sneakers - Fashion'}),0.01639344262295082,0.25,5.083333333333333
+frozenset({'Ballpoint Pens - Office'}),frozenset({'Tire Inflator - Automotive'}),0.01639344262295082,0.25,7.625
+frozenset({'Tire Inflator - Automotive'}),frozenset({'Ballpoint Pens - Office'}),0.01639344262295082,0.5,7.625
+frozenset({'Car Vacuum - Automotive'}),frozenset({'Cookbook - Books'}),0.01639344262295082,0.33333333333333337,4.066666666666667
+frozenset({'Cookbook - Books'}),frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,0.20000000000000004,4.066666666666667
+frozenset({'Football - Sports'}),frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,0.5,10.166666666666666
+frozenset({'Car Vacuum - Automotive'}),frozenset({'Football - Sports'}),0.01639344262295082,0.33333333333333337,10.166666666666668
+frozenset({'Car Vacuum - Automotive'}),frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,0.33333333333333337,5.083333333333334
+frozenset({'Microwave Oven - Home Appliances'}),frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,0.25,5.083333333333333
+frozenset({'Car Vacuum - Automotive'}),frozenset({'Notebook - Office'}),0.01639344262295082,0.33333333333333337,6.777777777777779
+frozenset({'Notebook - Office'}),frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,0.33333333333333337,6.777777777777779
+frozenset({'Car Vacuum - Automotive'}),frozenset({'Self-Help Book - Books'}),0.01639344262295082,0.33333333333333337,2.2592592592592595
+frozenset({'Self-Help Book - Books'}),frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,0.11111111111111112,2.2592592592592595
+frozenset({'Car Vacuum - Automotive'}),frozenset({'Tire Inflator - Automotive'}),0.01639344262295082,0.33333333333333337,10.166666666666668
+frozenset({'Tire Inflator - Automotive'}),frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,0.5,10.166666666666666
+frozenset({'Cereal - Grocery'}),frozenset({'Dumbbells - Sports'}),0.01639344262295082,0.33333333333333337,10.166666666666668
+frozenset({'Dumbbells - Sports'}),frozenset({'Cereal - Grocery'}),0.01639344262295082,0.5,10.166666666666666
+frozenset({'Dishwasher - Home Appliances'}),frozenset({'Cookbook - Books'}),0.01639344262295082,0.33333333333333337,4.066666666666667
+frozenset({'Cookbook - Books'}),frozenset({'Dishwasher - Home Appliances'}),0.01639344262295082,0.20000000000000004,4.066666666666667
+frozenset({'Football - Sports'}),frozenset({'Cookbook - Books'}),0.01639344262295082,0.5,6.1000000000000005
+frozenset({'Cookbook - Books'}),frozenset({'Football - Sports'}),0.01639344262295082,0.20000000000000004,6.1000000000000005
+frozenset({'Cookbook - Books'}),frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,0.20000000000000004,3.0500000000000003
+frozenset({'Microwave Oven - Home Appliances'}),frozenset({'Cookbook - Books'}),0.01639344262295082,0.25,3.0500000000000003
+frozenset({'Cookbook - Books'}),frozenset({'Puzzle Game - Toys'}),0.01639344262295082,0.20000000000000004,4.066666666666667
+frozenset({'Puzzle Game - Toys'}),frozenset({'Cookbook - Books'}),0.01639344262295082,0.33333333333333337,4.066666666666667
+frozenset({'Self-Help Book - Books'}),frozenset({'Cookbook - Books'}),0.01639344262295082,0.11111111111111112,1.3555555555555558
+frozenset({'Cookbook - Books'}),frozenset({'Self-Help Book - Books'}),0.01639344262295082,0.20000000000000004,1.3555555555555558
+frozenset({'Notebook - Office'}),frozenset({'Dash Cam - Automotive'}),0.01639344262295082,0.33333333333333337,6.777777777777779
+frozenset({'Dash Cam - Automotive'}),frozenset({'Notebook - Office'}),0.01639344262295082,0.33333333333333337,6.777777777777779
+frozenset({'Office Chair - Furniture'}),frozenset({'Dash Cam - Automotive'}),0.01639344262295082,0.14285714285714285,2.9047619047619047
+frozenset({'Dash Cam - Automotive'}),frozenset({'Office Chair - Furniture'}),0.01639344262295082,0.33333333333333337,2.904761904761905
+frozenset({'Dash Cam - Automotive'}),frozenset({'Sofa - Furniture'}),0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Sofa - Furniture'}),frozenset({'Dash Cam - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+frozenset({'Dishwasher - Home Appliances'}),frozenset({'Puzzle Game - Toys'}),0.01639344262295082,0.33333333333333337,6.777777777777779
+frozenset({'Puzzle Game - Toys'}),frozenset({'Dishwasher - Home Appliances'}),0.01639344262295082,0.33333333333333337,6.777777777777779
+frozenset({'Football - Sports'}),frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,0.5,7.625
+frozenset({'Microwave Oven - Home Appliances'}),frozenset({'Football - Sports'}),0.01639344262295082,0.25,7.625
+frozenset({'Football - Sports'}),frozenset({'Self-Help Book - Books'}),0.01639344262295082,0.5,3.388888888888889
+frozenset({'Self-Help Book - Books'}),frozenset({'Football - Sports'}),0.01639344262295082,0.11111111111111112,3.388888888888889
+frozenset({'Laptop - Electronics'}),frozenset({'LEGO Set - Toys'}),0.01639344262295082,1.0,30.5
+frozenset({'LEGO Set - Toys'}),frozenset({'Laptop - Electronics'}),0.01639344262295082,0.5,30.5
+frozenset({'Office Chair - Furniture'}),frozenset({'LEGO Set - Toys'}),0.03278688524590164,0.2857142857142857,8.714285714285714
+frozenset({'LEGO Set - Toys'}),frozenset({'Office Chair - Furniture'}),0.03278688524590164,1.0,8.714285714285714
+frozenset({'Sunglasses - Fashion'}),frozenset({'LEGO Set - Toys'}),0.01639344262295082,0.33333333333333337,10.166666666666668
+frozenset({'LEGO Set - Toys'}),frozenset({'Sunglasses - Fashion'}),0.01639344262295082,0.5,10.166666666666666
+frozenset({'Office Chair - Furniture'}),frozenset({'Laptop - Electronics'}),0.01639344262295082,0.14285714285714285,8.714285714285714
+frozenset({'Laptop - Electronics'}),frozenset({'Office Chair - Furniture'}),0.01639344262295082,1.0,8.714285714285714
+frozenset({'Laptop - Electronics'}),frozenset({'Sunglasses - Fashion'}),0.01639344262295082,1.0,20.333333333333332
+frozenset({'Sunglasses - Fashion'}),frozenset({'Laptop - Electronics'}),0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Office Chair - Furniture'}),"frozenset({""Men's Leather Jacket - Fashion""})",0.01639344262295082,0.14285714285714285,4.357142857142857
+"frozenset({""Men's Leather Jacket - Fashion""})",frozenset({'Office Chair - Furniture'}),0.01639344262295082,0.5,4.357142857142857
+"frozenset({""Men's Leather Jacket - Fashion""})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,0.5,3.388888888888889
+frozenset({'Self-Help Book - Books'}),"frozenset({""Men's Leather Jacket - Fashion""})",0.01639344262295082,0.11111111111111112,3.388888888888889
+frozenset({'Self-Help Book - Books'}),frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,0.11111111111111112,1.6944444444444444
+frozenset({'Microwave Oven - Home Appliances'}),frozenset({'Self-Help Book - Books'}),0.01639344262295082,0.25,1.6944444444444444
+frozenset({'Notebook - Office'}),frozenset({'Office Chair - Furniture'}),0.01639344262295082,0.33333333333333337,2.904761904761905
+frozenset({'Office Chair - Furniture'}),frozenset({'Notebook - Office'}),0.01639344262295082,0.14285714285714285,2.9047619047619047
+frozenset({'Office Chair - Furniture'}),frozenset({'Self-Help Book - Books'}),0.01639344262295082,0.14285714285714285,0.9682539682539683
+frozenset({'Self-Help Book - Books'}),frozenset({'Office Chair - Furniture'}),0.01639344262295082,0.11111111111111112,0.9682539682539683
+frozenset({'Office Chair - Furniture'}),frozenset({'Sunglasses - Fashion'}),0.01639344262295082,0.14285714285714285,2.9047619047619047
+frozenset({'Sunglasses - Fashion'}),frozenset({'Office Chair - Furniture'}),0.01639344262295082,0.33333333333333337,2.904761904761905
+"frozenset({""Women's Handbag - Fashion""})",frozenset({'Office Chair - Furniture'}),0.01639344262295082,0.33333333333333337,2.904761904761905
+frozenset({'Office Chair - Furniture'}),"frozenset({""Women's Handbag - Fashion""})",0.01639344262295082,0.14285714285714285,2.9047619047619047
+frozenset({'Pasta - Grocery'}),frozenset({'Remote Control Car - Toys'}),0.01639344262295082,0.16666666666666669,10.166666666666668
+frozenset({'Remote Control Car - Toys'}),frozenset({'Pasta - Grocery'}),0.01639344262295082,1.0,10.166666666666666
+frozenset({'Sneakers - Fashion'}),frozenset({'Pasta - Grocery'}),0.01639344262295082,0.33333333333333337,3.3888888888888893
+frozenset({'Pasta - Grocery'}),frozenset({'Sneakers - Fashion'}),0.01639344262295082,0.16666666666666669,3.3888888888888893
+frozenset({'Pet Carrier - Pet Supplies'}),frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+frozenset({'Self-Help Book - Books'}),frozenset({'Pet Carrier - Pet Supplies'}),0.01639344262295082,0.11111111111111112,6.777777777777778
+"frozenset({""Women's Handbag - Fashion""})",frozenset({'Science Fiction Novel - Books'}),0.01639344262295082,0.33333333333333337,10.166666666666668
+frozenset({'Science Fiction Novel - Books'}),"frozenset({""Women's Handbag - Fashion""})",0.01639344262295082,0.5,10.166666666666666
+"frozenset({'Car Vacuum - Automotive', 'Ballpoint Pens - Office'})",frozenset({'Notebook - Office'}),0.01639344262295082,0.5,10.166666666666666
+"frozenset({'Car Vacuum - Automotive', 'Notebook - Office'})",frozenset({'Ballpoint Pens - Office'}),0.01639344262295082,1.0,15.25
+"frozenset({'Ballpoint Pens - Office', 'Notebook - Office'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Ballpoint Pens - Office', 'Notebook - Office'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Ballpoint Pens - Office'}),"frozenset({'Car Vacuum - Automotive', 'Notebook - Office'})",0.01639344262295082,0.25,15.25
+frozenset({'Notebook - Office'}),"frozenset({'Car Vacuum - Automotive', 'Ballpoint Pens - Office'})",0.01639344262295082,0.33333333333333337,10.166666666666668
+"frozenset({'Car Vacuum - Automotive', 'Ballpoint Pens - Office'})",frozenset({'Tire Inflator - Automotive'}),0.01639344262295082,0.5,15.25
+"frozenset({'Car Vacuum - Automotive', 'Tire Inflator - Automotive'})",frozenset({'Ballpoint Pens - Office'}),0.01639344262295082,1.0,15.25
+"frozenset({'Ballpoint Pens - Office', 'Tire Inflator - Automotive'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Ballpoint Pens - Office', 'Tire Inflator - Automotive'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Ballpoint Pens - Office'}),"frozenset({'Car Vacuum - Automotive', 'Tire Inflator - Automotive'})",0.01639344262295082,0.25,15.25
+frozenset({'Tire Inflator - Automotive'}),"frozenset({'Car Vacuum - Automotive', 'Ballpoint Pens - Office'})",0.01639344262295082,0.5,15.25
+"frozenset({'Sneakers - Fashion', 'Ballpoint Pens - Office'})",frozenset({'Pasta - Grocery'}),0.01639344262295082,1.0,10.166666666666666
+"frozenset({'Sneakers - Fashion', 'Pasta - Grocery'})",frozenset({'Ballpoint Pens - Office'}),0.01639344262295082,1.0,15.25
+"frozenset({'Ballpoint Pens - Office', 'Pasta - Grocery'})",frozenset({'Sneakers - Fashion'}),0.01639344262295082,1.0,20.333333333333332
+frozenset({'Sneakers - Fashion'}),"frozenset({'Ballpoint Pens - Office', 'Pasta - Grocery'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Ballpoint Pens - Office'}),"frozenset({'Sneakers - Fashion', 'Pasta - Grocery'})",0.01639344262295082,0.25,15.25
+frozenset({'Pasta - Grocery'}),"frozenset({'Sneakers - Fashion', 'Ballpoint Pens - Office'})",0.01639344262295082,0.16666666666666669,10.166666666666668
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Football - Sports', 'Cookbook - Books'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+frozenset({'Football - Sports'}),"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})",0.01639344262295082,0.5,30.5
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Football - Sports', 'Cookbook - Books'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Cookbook - Books'}),"frozenset({'Football - Sports', 'Car Vacuum - Automotive'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Cookbook - Books'}),"frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})",0.01639344262295082,0.25,15.25
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Self-Help Book - Books', 'Cookbook - Books'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Self-Help Book - Books'}),"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})",0.01639344262295082,0.11111111111111112,6.777777777777778
+frozenset({'Cookbook - Books'}),"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+frozenset({'Football - Sports'}),"frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.5,30.5
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Football - Sports', 'Car Vacuum - Automotive'})",0.01639344262295082,0.25,15.25
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Football - Sports', 'Self-Help Book - Books'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+frozenset({'Football - Sports'}),"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})",0.01639344262295082,0.5,30.5
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Football - Sports', 'Self-Help Book - Books'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Self-Help Book - Books'}),"frozenset({'Football - Sports', 'Car Vacuum - Automotive'})",0.01639344262295082,0.11111111111111112,6.777777777777778
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Self-Help Book - Books'}),"frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.11111111111111112,6.777777777777778
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})",0.01639344262295082,0.25,15.25
+"frozenset({'Dishwasher - Home Appliances', 'Cookbook - Books'})",frozenset({'Puzzle Game - Toys'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Puzzle Game - Toys', 'Cookbook - Books'})",frozenset({'Dishwasher - Home Appliances'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Dishwasher - Home Appliances', 'Puzzle Game - Toys'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+frozenset({'Cookbook - Books'}),"frozenset({'Dishwasher - Home Appliances', 'Puzzle Game - Toys'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+frozenset({'Dishwasher - Home Appliances'}),"frozenset({'Puzzle Game - Toys', 'Cookbook - Books'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Puzzle Game - Toys'}),"frozenset({'Dishwasher - Home Appliances', 'Cookbook - Books'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+"frozenset({'Football - Sports', 'Cookbook - Books'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+frozenset({'Football - Sports'}),"frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.5,30.5
+frozenset({'Cookbook - Books'}),"frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Football - Sports', 'Cookbook - Books'})",0.01639344262295082,0.25,15.25
+"frozenset({'Football - Sports', 'Self-Help Book - Books'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Football - Sports', 'Cookbook - Books'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Self-Help Book - Books', 'Cookbook - Books'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+frozenset({'Football - Sports'}),"frozenset({'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,0.5,30.5
+frozenset({'Self-Help Book - Books'}),"frozenset({'Football - Sports', 'Cookbook - Books'})",0.01639344262295082,0.11111111111111112,6.777777777777778
+frozenset({'Cookbook - Books'}),"frozenset({'Football - Sports', 'Self-Help Book - Books'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+"frozenset({'Self-Help Book - Books', 'Cookbook - Books'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+frozenset({'Self-Help Book - Books'}),"frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.11111111111111112,6.777777777777778
+frozenset({'Cookbook - Books'}),"frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,0.25,15.25
+"frozenset({'Notebook - Office', 'Dash Cam - Automotive'})",frozenset({'Office Chair - Furniture'}),0.01639344262295082,1.0,8.714285714285714
+"frozenset({'Notebook - Office', 'Office Chair - Furniture'})",frozenset({'Dash Cam - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Office Chair - Furniture', 'Dash Cam - Automotive'})",frozenset({'Notebook - Office'}),0.01639344262295082,1.0,20.333333333333332
+frozenset({'Notebook - Office'}),"frozenset({'Office Chair - Furniture', 'Dash Cam - Automotive'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Dash Cam - Automotive'}),"frozenset({'Notebook - Office', 'Office Chair - Furniture'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Office Chair - Furniture'}),"frozenset({'Notebook - Office', 'Dash Cam - Automotive'})",0.01639344262295082,0.14285714285714285,8.714285714285714
+"frozenset({'Football - Sports', 'Self-Help Book - Books'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+frozenset({'Football - Sports'}),"frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.5,30.5
+frozenset({'Self-Help Book - Books'}),"frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.11111111111111112,6.777777777777778
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Football - Sports', 'Self-Help Book - Books'})",0.01639344262295082,0.25,15.25
+"frozenset({'Office Chair - Furniture', 'Laptop - Electronics'})",frozenset({'LEGO Set - Toys'}),0.01639344262295082,1.0,30.5
+"frozenset({'LEGO Set - Toys', 'Laptop - Electronics'})",frozenset({'Office Chair - Furniture'}),0.01639344262295082,1.0,8.714285714285714
+"frozenset({'Office Chair - Furniture', 'LEGO Set - Toys'})",frozenset({'Laptop - Electronics'}),0.01639344262295082,0.5,30.5
+frozenset({'Laptop - Electronics'}),"frozenset({'Office Chair - Furniture', 'LEGO Set - Toys'})",0.01639344262295082,1.0,30.5
+frozenset({'Office Chair - Furniture'}),"frozenset({'LEGO Set - Toys', 'Laptop - Electronics'})",0.01639344262295082,0.14285714285714285,8.714285714285714
+frozenset({'LEGO Set - Toys'}),"frozenset({'Office Chair - Furniture', 'Laptop - Electronics'})",0.01639344262295082,0.5,30.5
+"frozenset({'Sunglasses - Fashion', 'Laptop - Electronics'})",frozenset({'LEGO Set - Toys'}),0.01639344262295082,1.0,30.5
+"frozenset({'LEGO Set - Toys', 'Laptop - Electronics'})",frozenset({'Sunglasses - Fashion'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'LEGO Set - Toys', 'Sunglasses - Fashion'})",frozenset({'Laptop - Electronics'}),0.01639344262295082,1.0,61.0
+frozenset({'Laptop - Electronics'}),"frozenset({'LEGO Set - Toys', 'Sunglasses - Fashion'})",0.01639344262295082,1.0,61.0
+frozenset({'Sunglasses - Fashion'}),"frozenset({'LEGO Set - Toys', 'Laptop - Electronics'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'LEGO Set - Toys'}),"frozenset({'Sunglasses - Fashion', 'Laptop - Electronics'})",0.01639344262295082,0.5,30.5
+"frozenset({'Office Chair - Furniture', 'Sunglasses - Fashion'})",frozenset({'LEGO Set - Toys'}),0.01639344262295082,1.0,30.5
+"frozenset({'Office Chair - Furniture', 'LEGO Set - Toys'})",frozenset({'Sunglasses - Fashion'}),0.01639344262295082,0.5,10.166666666666666
+"frozenset({'LEGO Set - Toys', 'Sunglasses - Fashion'})",frozenset({'Office Chair - Furniture'}),0.01639344262295082,1.0,8.714285714285714
+frozenset({'Office Chair - Furniture'}),"frozenset({'LEGO Set - Toys', 'Sunglasses - Fashion'})",0.01639344262295082,0.14285714285714285,8.714285714285714
+frozenset({'Sunglasses - Fashion'}),"frozenset({'Office Chair - Furniture', 'LEGO Set - Toys'})",0.01639344262295082,0.33333333333333337,10.166666666666668
+frozenset({'LEGO Set - Toys'}),"frozenset({'Office Chair - Furniture', 'Sunglasses - Fashion'})",0.01639344262295082,0.5,30.5
+"frozenset({'Office Chair - Furniture', 'Laptop - Electronics'})",frozenset({'Sunglasses - Fashion'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Sunglasses - Fashion', 'Laptop - Electronics'})",frozenset({'Office Chair - Furniture'}),0.01639344262295082,1.0,8.714285714285714
+"frozenset({'Office Chair - Furniture', 'Sunglasses - Fashion'})",frozenset({'Laptop - Electronics'}),0.01639344262295082,1.0,61.0
+frozenset({'Laptop - Electronics'}),"frozenset({'Office Chair - Furniture', 'Sunglasses - Fashion'})",0.01639344262295082,1.0,61.0
+frozenset({'Office Chair - Furniture'}),"frozenset({'Sunglasses - Fashion', 'Laptop - Electronics'})",0.01639344262295082,0.14285714285714285,8.714285714285714
+frozenset({'Sunglasses - Fashion'}),"frozenset({'Office Chair - Furniture', 'Laptop - Electronics'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+"frozenset({'Office Chair - Furniture', ""Men's Leather Jacket - Fashion""})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Office Chair - Furniture', 'Self-Help Book - Books'})","frozenset({""Men's Leather Jacket - Fashion""})",0.01639344262295082,1.0,30.5
+"frozenset({""Men's Leather Jacket - Fashion"", 'Self-Help Book - Books'})",frozenset({'Office Chair - Furniture'}),0.01639344262295082,1.0,8.714285714285714
+frozenset({'Office Chair - Furniture'}),"frozenset({""Men's Leather Jacket - Fashion"", 'Self-Help Book - Books'})",0.01639344262295082,0.14285714285714285,8.714285714285714
+"frozenset({""Men's Leather Jacket - Fashion""})","frozenset({'Office Chair - Furniture', 'Self-Help Book - Books'})",0.01639344262295082,0.5,30.5
+frozenset({'Self-Help Book - Books'}),"frozenset({'Office Chair - Furniture', ""Men's Leather Jacket - Fashion""})",0.01639344262295082,0.11111111111111112,6.777777777777778
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Cookbook - Books'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Football - Sports', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive'})","frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Cookbook - Books'})","frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})","frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})","frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})","frozenset({'Football - Sports', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Football - Sports', 'Car Vacuum - Automotive'})",0.01639344262295082,1.0,61.0
+frozenset({'Football - Sports'}),"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.5,30.5
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Football - Sports', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Cookbook - Books'}),"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Cookbook - Books'})",0.01639344262295082,0.25,15.25
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Cookbook - Books'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Self-Help Book - Books'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Cookbook - Books'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Cookbook - Books'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive'})","frozenset({'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Cookbook - Books'})","frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Self-Help Book - Books'})","frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})","frozenset({'Football - Sports', 'Self-Help Book - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})","frozenset({'Football - Sports', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Self-Help Book - Books', 'Cookbook - Books'})","frozenset({'Football - Sports', 'Car Vacuum - Automotive'})",0.01639344262295082,1.0,61.0
+frozenset({'Football - Sports'}),"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,0.5,30.5
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Cookbook - Books'}),"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Self-Help Book - Books'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+frozenset({'Self-Help Book - Books'}),"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Cookbook - Books'})",0.01639344262295082,0.11111111111111112,6.777777777777778
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Cookbook - Books'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Self-Help Book - Books', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})","frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})","frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})","frozenset({'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Self-Help Book - Books', 'Cookbook - Books'})","frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})",0.01639344262295082,1.0,61.0
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Self-Help Book - Books', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Self-Help Book - Books'}),"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.11111111111111112,6.777777777777778
+frozenset({'Cookbook - Books'}),"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,0.25,15.25
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Self-Help Book - Books'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+"frozenset({'Football - Sports', 'Car Vacuum - Automotive'})","frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})","frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Self-Help Book - Books'})","frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})","frozenset({'Football - Sports', 'Self-Help Book - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})","frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Football - Sports', 'Car Vacuum - Automotive'})",0.01639344262295082,1.0,61.0
+frozenset({'Football - Sports'}),"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.5,30.5
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Self-Help Book - Books'})",0.01639344262295082,0.25,15.25
+frozenset({'Self-Help Book - Books'}),"frozenset({'Football - Sports', 'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.11111111111111112,6.777777777777778
+"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Cookbook - Books'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Football - Sports', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Self-Help Book - Books', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+"frozenset({'Football - Sports', 'Self-Help Book - Books'})","frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Cookbook - Books'})","frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})","frozenset({'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Self-Help Book - Books', 'Cookbook - Books'})","frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Football - Sports', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Football - Sports', 'Self-Help Book - Books'})",0.01639344262295082,1.0,61.0
+frozenset({'Football - Sports'}),"frozenset({'Self-Help Book - Books', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.5,30.5
+frozenset({'Self-Help Book - Books'}),"frozenset({'Football - Sports', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.11111111111111112,6.777777777777778
+frozenset({'Cookbook - Books'}),"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,0.25,15.25
+"frozenset({'Office Chair - Furniture', 'Sunglasses - Fashion', 'Laptop - Electronics'})",frozenset({'LEGO Set - Toys'}),0.01639344262295082,1.0,30.5
+"frozenset({'Office Chair - Furniture', 'LEGO Set - Toys', 'Laptop - Electronics'})",frozenset({'Sunglasses - Fashion'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'LEGO Set - Toys', 'Sunglasses - Fashion', 'Laptop - Electronics'})",frozenset({'Office Chair - Furniture'}),0.01639344262295082,1.0,8.714285714285714
+"frozenset({'Office Chair - Furniture', 'LEGO Set - Toys', 'Sunglasses - Fashion'})",frozenset({'Laptop - Electronics'}),0.01639344262295082,1.0,61.0
+"frozenset({'Office Chair - Furniture', 'Laptop - Electronics'})","frozenset({'LEGO Set - Toys', 'Sunglasses - Fashion'})",0.01639344262295082,1.0,61.0
+"frozenset({'Sunglasses - Fashion', 'Laptop - Electronics'})","frozenset({'Office Chair - Furniture', 'LEGO Set - Toys'})",0.01639344262295082,1.0,30.5
+"frozenset({'LEGO Set - Toys', 'Laptop - Electronics'})","frozenset({'Office Chair - Furniture', 'Sunglasses - Fashion'})",0.01639344262295082,1.0,61.0
+"frozenset({'Office Chair - Furniture', 'Sunglasses - Fashion'})","frozenset({'LEGO Set - Toys', 'Laptop - Electronics'})",0.01639344262295082,1.0,61.0
+"frozenset({'Office Chair - Furniture', 'LEGO Set - Toys'})","frozenset({'Sunglasses - Fashion', 'Laptop - Electronics'})",0.01639344262295082,0.5,30.5
+"frozenset({'LEGO Set - Toys', 'Sunglasses - Fashion'})","frozenset({'Office Chair - Furniture', 'Laptop - Electronics'})",0.01639344262295082,1.0,61.0
+frozenset({'Laptop - Electronics'}),"frozenset({'Office Chair - Furniture', 'LEGO Set - Toys', 'Sunglasses - Fashion'})",0.01639344262295082,1.0,61.0
+frozenset({'Office Chair - Furniture'}),"frozenset({'LEGO Set - Toys', 'Sunglasses - Fashion', 'Laptop - Electronics'})",0.01639344262295082,0.14285714285714285,8.714285714285714
+frozenset({'Sunglasses - Fashion'}),"frozenset({'Office Chair - Furniture', 'LEGO Set - Toys', 'Laptop - Electronics'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'LEGO Set - Toys'}),"frozenset({'Office Chair - Furniture', 'Sunglasses - Fashion', 'Laptop - Electronics'})",0.01639344262295082,0.5,30.5
+"frozenset({'Car Vacuum - Automotive', 'Football - Sports', 'Microwave Oven - Home Appliances', 'Cookbook - Books'})",frozenset({'Self-Help Book - Books'}),0.01639344262295082,1.0,6.777777777777778
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Football - Sports', 'Microwave Oven - Home Appliances'})",frozenset({'Cookbook - Books'}),0.01639344262295082,1.0,12.200000000000001
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Football - Sports', 'Cookbook - Books'})",frozenset({'Microwave Oven - Home Appliances'}),0.01639344262295082,1.0,15.25
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Football - Sports'}),0.01639344262295082,1.0,30.5
+"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",frozenset({'Car Vacuum - Automotive'}),0.01639344262295082,1.0,20.333333333333332
+"frozenset({'Car Vacuum - Automotive', 'Football - Sports', 'Microwave Oven - Home Appliances'})","frozenset({'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Football - Sports', 'Cookbook - Books'})","frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Football - Sports'})","frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Football - Sports', 'Self-Help Book - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Football - Sports', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Cookbook - Books'})","frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Cookbook - Books'})","frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Self-Help Book - Books', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Car Vacuum - Automotive', 'Football - Sports'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Football - Sports'})","frozenset({'Self-Help Book - Books', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Microwave Oven - Home Appliances'})","frozenset({'Football - Sports', 'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Cookbook - Books'})","frozenset({'Football - Sports', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books'})","frozenset({'Football - Sports', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Microwave Oven - Home Appliances'})","frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Cookbook - Books'})","frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Football - Sports', 'Self-Help Book - Books'})","frozenset({'Car Vacuum - Automotive', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+"frozenset({'Cookbook - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Football - Sports'})",0.01639344262295082,1.0,61.0
+"frozenset({'Self-Help Book - Books', 'Microwave Oven - Home Appliances'})","frozenset({'Car Vacuum - Automotive', 'Football - Sports', 'Cookbook - Books'})",0.01639344262295082,1.0,61.0
+"frozenset({'Self-Help Book - Books', 'Cookbook - Books'})","frozenset({'Car Vacuum - Automotive', 'Football - Sports', 'Microwave Oven - Home Appliances'})",0.01639344262295082,1.0,61.0
+frozenset({'Car Vacuum - Automotive'}),"frozenset({'Football - Sports', 'Self-Help Book - Books', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.33333333333333337,20.333333333333336
+frozenset({'Football - Sports'}),"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Cookbook - Books', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.5,30.5
+frozenset({'Microwave Oven - Home Appliances'}),"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Football - Sports', 'Cookbook - Books'})",0.01639344262295082,0.25,15.25
+frozenset({'Cookbook - Books'}),"frozenset({'Car Vacuum - Automotive', 'Self-Help Book - Books', 'Football - Sports', 'Microwave Oven - Home Appliances'})",0.01639344262295082,0.20000000000000004,12.200000000000001
+frozenset({'Self-Help Book - Books'}),"frozenset({'Car Vacuum - Automotive', 'Football - Sports', 'Microwave Oven - Home Appliances', 'Cookbook - Books'})",0.01639344262295082,0.11111111111111112,6.777777777777778
