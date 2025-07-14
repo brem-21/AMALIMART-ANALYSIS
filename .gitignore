@@ -192,3 +192,11 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+#terraform
+#  terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
+#  terraform configuration files are typically stored in the root of the project.
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfvars
