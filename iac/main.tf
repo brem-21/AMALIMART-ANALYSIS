@@ -17,3 +17,11 @@ module "aws_db_instance" {
   password = var.password
   parameter_group_name = var.parameter_group_name
 }
+
+
+module "glue_iam_role" {
+  source      = "./module/iam"
+  bucket_name = var.bucket_name
+}
+
+
