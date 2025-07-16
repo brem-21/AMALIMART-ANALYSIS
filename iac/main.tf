@@ -24,4 +24,18 @@ module "glue_iam_role" {
   bucket_name = var.bucket_name
 }
 
+module "glue_job" {
+  source          = "./module/glue"
+  glue_job_name   = var.glue_job_name
+  script_path     = var.script_path
+  SQL_SERVER_HOST = var.SQL_SERVER_HOST
+  SQL_SERVER_PORT = var.SQL_SERVER_PORT
+  SQL_SERVER_USER = var.SQL_SERVER_USER
+  SQL_SERVER_PASSWORD = var.SQL_SERVER_PASSWORD
+  SQL_SERVER_DATABASE = var.SQL_SERVER_DATABASE
+  tables           = var.tables
+  bucket_name = var.bucket_name
+  role_arn         = var.role_arn  
+}
+
 

@@ -83,3 +83,8 @@ variable "SQL_SERVER_DATABASE" {
 variable "tables" {
   description = "Tables needed to be exported into s3"
 }
+
+variable "role_arn" {
+  description = "IAM Role ARN for Glue job"
+  type        = string
+}
