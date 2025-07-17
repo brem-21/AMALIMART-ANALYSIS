@@ -92,3 +92,15 @@ variable "role_arn" {
 variable "requirements_path" {
   description = "Path to requirements.txt file for installations"
 }
+
+variable "silver_path" {
+  description = "Path to the silver Glue Script"
+}
+
+variable "delta_path" {
+  description = "Delta Lakehouse path"
+}
+
+variable "silver_job_name" {
+  description = "Name of the silver tranformation Job"
+}

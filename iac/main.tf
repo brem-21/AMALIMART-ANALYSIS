@@ -39,4 +39,16 @@ module "glue_job" {
   requirements_path = var.requirements_path
 }
 
+module "silver_glue_job" {
+  source = "./module/glue_silver"
+  db_name = var.db_name
+  role_arn = var.role_arn
+  bucket_name = var.bucket_name
+  delta_path = var.delta_path
+  silver_job_name = var.silver_job_name
+  requirements_path = var.requirements_path
+  tables = var.tables
+  silver_path = var.silver_path
+}
+
 
