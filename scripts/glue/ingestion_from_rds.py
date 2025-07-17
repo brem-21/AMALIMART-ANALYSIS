@@ -1,24 +1,13 @@
 import sys
+from datetime import datetime
 from awsglue.utils import getResolvedOptions
+from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.job import Job
-from pyspark.context import SparkContext
 from pyspark.sql import SparkSession
 
 
 def initialize_glue_context(job_name):
-    """Initialize and return Glue context with Delta Lake configurations"""
-    args = getResolvedOptions(sys.argv, [
-        "JOB_NAME",
-        "RDS_HOST",
-        "RDS_PORT",
-        "RDS_DB_NAME",
-        "RDS_USERNAME",
-        "RDS_PASSWORD",
-        "S3_OUTPUT_BUCKET",
-        "DB_TABLES"
-    ])
-
     sc = SparkContext()
     glue_context = GlueContext(sc)
     spark = (
@@ -30,53 +19,58 @@ def initialize_glue_context(job_name):
         .config("spark.hadoop.mapreduce.fileoutputcommitter.marksuccessfuljobs", "false")
         .getOrCreate()
     )
-
-    spark.conf.set("spark.sql.adaptive.enabled", "true")
-    spark.conf.set("spark.sql.adaptive.coalescePartitions.enabled", "true")
-    spark.conf.set("spark.sql.adaptive.skewJoin.enabled", "true")
-    spark.conf.set("spark.sql.cbo.enabled", "true")
-    spark.conf.set("spark.sql.statistics.histogram.enabled", "true")
-
     job = Job(glue_context)
-    job.init(job_name, args)
-    return glue_context, spark, args, job
-
-
-def get_jdbc_url(args):
-    return f"jdbc:mysql://{args['RDS_HOST']}:{args['RDS_PORT']}/{args['RDS_DB_NAME']}"
-
-
-def extract_table(glue_context, jdbc_url, table_name, conn_props):
-    print(f"Extracting table: {table_name}")
-    return glue_context.read.format("jdbc") \
-        .option("url", jdbc_url) \
-        .option("dbtable", table_name) \
-        .option("user", conn_props["user"]) \
-        .option("password", conn_props["password"]) \
-        .option("driver", conn_props["driver"]) \
-        .load()
-
-
-def write_to_s3_delta(df, bucket, db_name, table_name):
-    output_path = f"s3://{bucket}/{db_name}/{table_name}/"
-    print(f"Writing {table_name} to {output_path} as Delta format...")
-    df.write.format("delta").mode("overwrite").save(output_path)
+    return glue_context, spark, job
 
 
 def main():
-    glue_context, spark, args, job = initialize_glue_context(args["JOB_NAME"])
+    args = getResolvedOptions(sys.argv, [
+        'JOB_NAME',
+        'RDS_HOST',
+        'RDS_PORT',
+        'RDS_DB_NAME',
+        'RDS_USERNAME',
+        'RDS_PASSWORD',
+        'S3_OUTPUT_BUCKET',
+        'DB_TABLES'
+    ])
 
-    jdbc_url = get_jdbc_url(args)
+    glue_context, spark, job = initialize_glue_context(args['JOB_NAME'])
+    job.init(args['JOB_NAME'], args)
+
+    jdbc_url = f"jdbc:mysql://{args['RDS_HOST']}:{args['RDS_PORT']}/{args['RDS_DB_NAME']}"
     conn_props = {
-        "user": args["RDS_USERNAME"],
-        "password": args["RDS_PASSWORD"],
+        "user": args['RDS_USERNAME'],
+        "password": args['RDS_PASSWORD'],
         "driver": "com.mysql.cj.jdbc.Driver"
     }
 
+    # Current time → formatted as 2024/Jan/week1
+    now = datetime.utcnow()
+    year = now.strftime("%Y")
+    month = now.strftime("%b")  # Jan, Feb, Mar...
+    week_number = ((now.day - 1) // 7) + 1
+
+    folder_partition = f"{year}/{month}/week{week_number}"
+
     tables = args["DB_TABLES"].split(",")
+    s3_bucket = args["S3_OUTPUT_BUCKET"]
+    db_name = args["RDS_DB_NAME"]
+
     for table in tables:
-        df = extract_table(glue_context, jdbc_url, table, conn_props)
-        write_to_s3_delta(df, args["S3_OUTPUT_BUCKET"], args["RDS_DB_NAME"], table)
+        print(f"Extracting table: {table}")
+        df = glue_context.read.format("jdbc") \
+            .option("url", jdbc_url) \
+            .option("dbtable", table) \
+            .option("user", conn_props["user"]) \
+            .option("password", conn_props["password"]) \
+            .option("driver", conn_props["driver"]) \
+            .load()
+
+        output_path = f"s3://{s3_bucket}/Raw-Data/{db_name}/{table}/{folder_partition}/"
+        print(f"Writing to: {output_path}")
+
+        df.write.format("delta").mode("overwrite").save(output_path)
 
     job.commit()
 
