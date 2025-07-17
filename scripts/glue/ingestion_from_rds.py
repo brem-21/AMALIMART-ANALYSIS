@@ -5,8 +5,8 @@ from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.job import Job
 from pyspark.sql import SparkSession
-from pyspark.sql.types import StructType, StructField, StringType, LongType, TimestampType
-import jaydebeapi  # Added import for truncation
+from pyspark.sql.types import StructType, StructField, StringType, LongType
+import pymysql
 
 
 def initialize_glue_context(job_name):
@@ -25,24 +25,26 @@ def initialize_glue_context(job_name):
     return glue_context, spark, job
 
 
-def truncate_rds_table(jdbc_url, table, conn_props, driver_path="/tmp/mysql-connector-java-8.0.28.jar"):
-    """Truncate MySQL table using direct JDBC connection"""
+def truncate_rds_table(host, port, database, table, user, password):
+    """Truncate MySQL table using pymysql"""
     try:
-        conn = jaydebeapi.connect(
-            "com.mysql.cj.jdbc.Driver",
-            jdbc_url,
-            [conn_props["user"], conn_props["password"]],
-            driver_path
+        conn = pymysql.connect(
+            host=host,
+            port=int(port),
+            user=user,
+            password=password,
+            database=database,
+            connect_timeout=10
         )
-        curs = conn.cursor()
-        curs.execute(f"TRUNCATE TABLE {table}")
+        with conn.cursor() as cursor:
+            cursor.execute(f"TRUNCATE TABLE {table}")
         conn.commit()
-        print(f"Successfully truncated source table: {table}")
+        print(f"Successfully truncated table: {table}")
     except Exception as e:
-        print(f"Error truncating {table}: {str(e)}")
+        print(f"Error truncating table {table}: {str(e)}")
         raise
     finally:
-        if 'conn' in locals():
+        if conn:
             conn.close()
 
 
@@ -68,10 +70,10 @@ def main():
         "driver": "com.mysql.cj.jdbc.Driver"
     }
 
-    # Current time → formatted as 2024/Jan/week1
+    # Weekly folder path
     now = datetime.utcnow()
     year = now.strftime("%Y")
-    month = now.strftime("%b")  # Jan, Feb, Mar...
+    month = now.strftime("%b")
     week_number = ((now.day - 1) // 7) + 1
     folder_partition = f"{year}/{month}/week{week_number}"
 
@@ -79,7 +81,6 @@ def main():
     s3_bucket = args["S3_OUTPUT_BUCKET"]
     db_name = args["RDS_DB_NAME"]
 
-    # Define schema for audit logs
     audit_schema = StructType([
         StructField("table_name", StringType()),
         StructField("ingestion_time", StringType()),
@@ -102,18 +103,21 @@ def main():
                 .load()
 
             output_path = f"s3://{s3_bucket}/Raw-Data/{db_name}/{table}/{folder_partition}/"
-            print(f"Writing to: {output_path}")
-
             df.write.format("delta").mode("overwrite").save(output_path)
-            
+
             row_count = df.count()
-            print(f"Table {table} has {row_count} records for week {week_number}")
-            
-            # TRUNCATE SOURCE TABLE AFTER SUCCESSFUL LOAD
-            truncate_rds_table(jdbc_url, table, conn_props)
-            
-            # Create audit record
-            audit_data = [(
+            print(f"{row_count} records written for table: {table}")
+
+            truncate_rds_table(
+                args['RDS_HOST'],
+                args['RDS_PORT'],
+                args['RDS_DB_NAME'],
+                table,
+                args['RDS_USERNAME'],
+                args['RDS_PASSWORD']
+            )
+
+            audit_df = spark.createDataFrame([(
                 table,
                 datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"),
                 year,
@@ -121,15 +125,13 @@ def main():
                 week_number,
                 row_count,
                 output_path
-            )]
-            
-            audit_df = spark.createDataFrame(audit_data, schema=audit_schema)
-            
+            )], schema=audit_schema)
+
             audit_table_path = f"s3://{s3_bucket}/Raw-Data/audit_logs/"
             audit_df.write.format("delta").mode("append").save(audit_table_path)
 
         except Exception as e:
-            print(f"Error processing table {table}: {str(e)}")
+            print(f"Error processing {table}: {str(e)}")
             continue
 
     job.commit()
@@ -137,4 +139,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
