@@ -40,3 +40,7 @@ variable "role_arn" {
   description = "IAM Role ARN for Glue job"
   type        = string
 }
+
+variable "requirements_path" {
+  description = "Path to requirements.txt file for installations"
+}

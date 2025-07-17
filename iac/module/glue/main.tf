@@ -18,7 +18,7 @@ resource "aws_glue_job" "mysql_to_s3_delta" {
     "--S3_OUTPUT_BUCKET"          = var.bucket_name
     "--DB_TABLES"                 = var.tables
     "--enable-metrics"            = ""
-    "--additional-python-modules" = "delta-spark==2.4.0,mysql-connector-python==8.0.33"
+    "--additional-python-modules" = var.requirements_path
     "--TempDir"                   = "s3://${var.bucket_name}/glue/temp/"
   }
 
