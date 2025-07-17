@@ -36,6 +36,7 @@ module "glue_job" {
   tables           = var.tables
   bucket_name = var.bucket_name
   role_arn         = var.role_arn  
+  requirements_path = var.requirements_path
 }
 
 
