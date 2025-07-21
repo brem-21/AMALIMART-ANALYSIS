@@ -1,4 +1,4 @@
-resource "aws_glue_job" "mysql_to_s3_delta" {
+resource "aws_glue_job" "silver_data" {
   name     = var.silver_job_name
   role_arn = var.role_arn
 

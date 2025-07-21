@@ -52,3 +52,17 @@ module "silver_glue_job" {
 }
 
 
+module "gold_transformations" {
+  source            = "./module/glue_gold"
+  db_name           = var.db_name
+  role_arn          = var.role_arn
+  bucket_name       = var.bucket_name
+  gold_job_name     = var.gold_job_name
+  requirements_path = var.requirements_path
+  tables            = var.tables
+  silver_path       = var.delta_path
+  delta_path        = var.delta_path
+  gold_script_path  = var.gold_script_path
+  gold_delta        = var.gold_delta
+  silver_job_name   = var.silver_job_name
+}
