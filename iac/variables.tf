@@ -121,3 +121,15 @@ variable "redshift_password" {
   description = "Password for authentication"
   sensitive   = true
 }
+
+variable "gold_script_path" {
+  description = "Script path of the gold transformation"
+}
+
+variable "gold_job_name" {
+  description = "name of the glue job for the gold transformation"
+}
+
+variable "gold_delta" {
+  description = "Gold delta path"
+}
