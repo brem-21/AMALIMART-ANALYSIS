@@ -16,7 +16,7 @@ resource "aws_glue_job" "gold_kpis" {
     "--additional-python-modules" = "delta-spark==2.4.0,PyMySQL==1.1.1,jaydebeapi==1.2.3"
     "--TempDir"                   = "s3://${var.bucket_name}/glue/temp/"
     "--GOLD_PATH"               = "s3://${var.bucket_name}/KPIS/${var.db_name}/"
-    "--SILVER_PATH"                = var.delta_path
+    "--SILVER_PATH"                = var.silver_location
   }
 
   glue_version        = "5.0"

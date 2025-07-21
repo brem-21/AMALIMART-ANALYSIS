@@ -43,3 +43,7 @@ variable "gold_job_name" {
 variable "gold_delta" {
   description = "Gold delta path"
 }
+
+variable "silver_location" {
+  description = "Location of the silver data"
+}
