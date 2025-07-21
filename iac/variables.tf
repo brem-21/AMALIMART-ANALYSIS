@@ -1,21 +1,21 @@
 variable "region" {
-  type = string
+  type        = string
   description = "Name of the region in AWS"
 }
 
 variable "access_key_id" {
-  type = string
+  type        = string
   description = "Access Key ID of IAM USER"
 }
 
 variable "secret_access_key" {
-    type = string
-    description = "Secret Access Key of IAM USER"
+  type        = string
+  description = "Secret Access Key of IAM USER"
 }
 
 variable "bucket_name" {
-    type = string
-    description = "Name of the S3 bucket used for BLOB Storage"
+  type        = string
+  description = "Name of the S3 bucket used for BLOB Storage"
 }
 
 variable "allocated_storage" {
@@ -44,7 +44,7 @@ variable "username" {
 
 variable "password" {
   description = "password for the database user(Authentication)"
-  sensitive = true
+  sensitive   = true
 }
 
 variable "parameter_group_name" {
@@ -73,7 +73,7 @@ variable "SQL_SERVER_USER" {
 
 variable "SQL_SERVER_PASSWORD" {
   description = "Password of the data source"
-  sensitive = true
+  sensitive   = true
 }
 
 variable "SQL_SERVER_DATABASE" {
@@ -103,4 +103,21 @@ variable "delta_path" {
 
 variable "silver_job_name" {
   description = "Name of the silver tranformation Job"
+}
+
+variable "redshift_cluster" {
+  description = "Cluster identifier"
+}
+
+variable "redshift_db" {
+  description = "Database of the datawarehouse"
+}
+
+variable "redshift_user" {
+  description = "user of the database"
+}
+
+variable "redshift_password" {
+  description = "Password for authentication"
+  sensitive   = true
 }
