@@ -87,9 +87,9 @@ if all(tbl in delta_tables for tbl in required_user_tables):
         .partitionBy("user_year", "user_month", "user_day") \
         .save(os.path.join(OUTPUT_PATH, "users_data"))
 
-    logger.info("✅ Users transformation complete.")
+    logger.info("Users transformation complete.")
 else:
-    logger.warning("⚠️ Skipping Users transformation - missing required tables.")
+    logger.warning(" Skipping Users transformation - missing required tables.")
 
 # ---------- Transform: Orders with column disambiguation ----------
 required_order_tables = ['orders', 'order_items', 'carts', 'cart_items', 'shipping_info']
@@ -139,9 +139,9 @@ if all(tbl in delta_tables for tbl in required_order_tables):
         .partitionBy("order_year", "order_month", "order_day") \
         .save(os.path.join(OUTPUT_PATH, "orders_data"))
 
-    logger.info("✅ Orders transformation complete.")
+    logger.info("Orders transformation complete.")
 else:
-    logger.warning("⚠️ Skipping Orders transformation - missing required tables.")
+    logger.warning(" Skipping Orders transformation - missing required tables.")
 
 # ---------- Transform: Payments ----------
 required_payment_tables = ['payments', 'orders']
@@ -172,9 +172,9 @@ if all(tbl in delta_tables for tbl in required_payment_tables):
         .partitionBy("payment_year", "payment_month", "payment_day") \
         .save(os.path.join(OUTPUT_PATH, "payments_data"))
 
-    logger.info("✅ Payments transformation complete.")
+    logger.info("Payments transformation complete.")
 else:
-    logger.warning("⚠️ Skipping Payments transformation - missing required tables.")
+    logger.warning(" Skipping Payments transformation - missing required tables.")
 
 # ---------- Transform: Returns ----------
 if 'returns' in delta_tables:
@@ -189,9 +189,9 @@ if 'returns' in delta_tables:
         .partitionBy("return_year", "return_month", "return_day") \
         .save(os.path.join(OUTPUT_PATH, "returns_data"))
 
-    logger.info("✅ Returns transformation complete.")
+    logger.info(" Returns transformation complete.")
 else:
-    logger.warning("⚠️ Skipping Returns transformation - returns table not available.")
+    logger.warning(" Skipping Returns transformation - returns table not available.")
 
 # ---------- Transform: Discounts ----------
 if 'discounts' in delta_tables:
@@ -206,9 +206,9 @@ if 'discounts' in delta_tables:
         .partitionBy("discount_year", "discount_month", "discount_day") \
         .save(os.path.join(OUTPUT_PATH, "discounts_data"))
 
-    logger.info("✅ Discounts transformation complete.")
+    logger.info("Discounts transformation complete.")
 else:
-    logger.warning("⚠️ Skipping Discounts transformation - table not available.")
+    logger.warning(" Skipping Discounts transformation - table not available.")
 
 
 # ---------- Transform: Vendor Applications ----------
@@ -224,9 +224,9 @@ if 'vendor_applications' in delta_tables:
         .partitionBy("app_year", "app_month", "app_day") \
         .save(os.path.join(OUTPUT_PATH, "vendor_applications_data"))
 
-    logger.info("✅ Vendor Applications transformation complete.")
+    logger.info(" Vendor Applications transformation complete.")
 else:
-    logger.warning("⚠️ Skipping Vendor Applications transformation - table not available.")
+    logger.warning(" Skipping Vendor Applications transformation - table not available.")
 
 
 # ---------- Transform: Products ----------
@@ -300,10 +300,10 @@ if all(tbl in delta_tables for tbl in ['products', 'categories', 'product_varian
         .partitionBy("Product_year", "Product_month", "Product_day") \
         .save(os.path.join(OUTPUT_PATH, "products_data"))
 
-    logger.info("✅ Products transformation complete.")
+    logger.info("Products transformation complete.")
 else:
-    logger.warning("⚠️ Skipping Products transformation - required tables not available.")
+    logger.warning(" Skipping Products transformation - required tables not available.")
 
 # ---------- Finalize Glue Job ----------
 job.commit()
-logger.info("🎉 Glue Delta Silver transformation job complete and committed.")
+logger.info(" Glue Delta Silver transformation job complete and committed.")
