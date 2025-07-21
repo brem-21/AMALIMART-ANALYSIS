@@ -6,5 +6,5 @@ resource "aws_redshift_cluster" "amalimart" {
   node_type = "ra3.large"
   cluster_type = "single-node"
 
-  manage_master_password = true
+  
 }

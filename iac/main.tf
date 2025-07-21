@@ -60,9 +60,18 @@ module "gold_transformations" {
   gold_job_name     = var.gold_job_name
   requirements_path = var.requirements_path
   tables            = var.tables
-  silver_path       = var.delta_path
+  silver_path       = var.silver_location
   delta_path        = var.delta_path
   gold_script_path  = var.gold_script_path
   gold_delta        = var.gold_delta
   silver_job_name   = var.silver_job_name
+  silver_location   = var.silver_location
+}
+
+module "aws_redshift" {
+  source            = "./module/redshift"
+  redshift_cluster  = var.redshift_cluster
+  redshift_db       = var.redshift_db
+  redshift_user     = var.redshift_user
+  redshift_password = var.password
 }
