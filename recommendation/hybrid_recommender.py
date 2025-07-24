@@ -5,26 +5,35 @@ from sklearn.metrics.pairwise import cosine_similarity
 from collections import defaultdict
 from mlxtend.preprocessing import TransactionEncoder
 from mlxtend.frequent_patterns import apriori, association_rules
-
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, Query
 from typing import List
 import uvicorn
 import pymssql
 from dotenv import load_dotenv
+import mysql.connector
 
 # Load environment variables from .env
 load_dotenv()
 
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[os.getenv("FRONTEND_URL")],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Database connection
 def get_connection():
-    return pymssql.connect(
+    return mysql.connector.connect(
         host=os.getenv("SQL_SERVER_HOST"),
         user=os.getenv("SQL_SERVER_USER"),
         password=os.getenv("SQL_SERVER_PASSWORD"),
-        database=os.getenv("DB_NAME"),
-        port=int(os.getenv("SQL_SERVER_DATABASE", 3306))
+        database=os.getenv("SQL_SERVER_DATABASE"),
+        port=3306
     )
 
 # Load data from SQL Server
@@ -142,6 +151,7 @@ def hybrid_recommend(user_cart_ids, user_cart_names, weights={"market": 0.4, "co
             })
     return result
 
+#recommendation endpoint
 @app.get("/recommendations")
 def recommend(cart_ids: List[int] = Query(...)):
     cart_subset = cart_items[cart_items["cart_id"].isin(cart_ids)]
