@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from collections import defaultdict
 from mlxtend.preprocessing import TransactionEncoder
 from mlxtend.frequent_patterns import apriori, association_rules
-
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, Query
 from typing import List
 import uvicorn
@@ -17,6 +17,14 @@ import mysql.connector
 load_dotenv()
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[os.getenv("FRONTEND_URL")],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Database connection
 def get_connection():
