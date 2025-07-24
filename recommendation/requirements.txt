@@ -10,3 +10,4 @@ scikit-learn
 mlxtend
 fastapi
 uvicorn
+

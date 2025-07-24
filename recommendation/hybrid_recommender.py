@@ -143,6 +143,7 @@ def hybrid_recommend(user_cart_ids, user_cart_names, weights={"market": 0.4, "co
             })
     return result
 
+#recommendation endpoint
 @app.get("/recommendations")
 def recommend(cart_ids: List[int] = Query(...)):
     cart_subset = cart_items[cart_items["cart_id"].isin(cart_ids)]
