@@ -1,0 +1,12 @@
+pandas
+sqlalchemy
+boto3
+python-dotenv
+openpyxl
+pymssql
+pyodbc
+mysql-connector-python
+scikit-learn
+mlxtend
+fastapi
+uvicorn

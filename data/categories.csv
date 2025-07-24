@@ -1,0 +1,1001 @@
+id,name,parent_category_id
+1,Beauty,
+2,Beauty,
+3,Groceries,
+4,Fashion,
+5,Electronics,
+6,Electronics,
+7,Toys,
+8,Beauty,
+9,Beauty,7.0
+10,Home & Kitchen,7.0
+11,Groceries,4.0
+12,Toys,8.0
+13,Sports,2.0
+14,Beauty,5.0
+15,Toys,2.0
+16,Home & Kitchen,2.0
+17,Fashion,3.0
+18,Books,3.0
+19,Sports,2.0
+20,Books,2.0
+21,Electronics,2.0
+22,Fashion,3.0
+23,Electronics,8.0
+24,Fashion,7.0
+25,Books,4.0
+26,Fashion,3.0
+27,Books,7.0
+28,Groceries,3.0
+29,Beauty,7.0
+30,Fashion,4.0
+31,Groceries,6.0
+32,Electronics,5.0
+33,Beauty,1.0
+34,Books,6.0
+35,Toys,2.0
+36,Books,1.0
+37,Fashion,6.0
+38,Sports,6.0
+39,Books,8.0
+40,Fashion,6.0
+41,Fashion,3.0
+42,Fashion,2.0
+43,Toys,7.0
+44,Groceries,7.0
+45,Beauty,2.0
+46,Fashion,4.0
+47,Home & Kitchen,4.0
+48,Toys,4.0
+49,Books,7.0
+50,Electronics,7.0
+51,Toys,4.0
+52,Fashion,4.0
+53,Home & Kitchen,3.0
+54,Fashion,3.0
+55,Sports,6.0
+56,Books,1.0
+57,Electronics,7.0
+58,Books,4.0
+59,Electronics,5.0
+60,Fashion,6.0
+61,Groceries,1.0
+62,Groceries,8.0
+63,Sports,7.0
+64,Beauty,3.0
+65,Groceries,3.0
+66,Fashion,6.0
+67,Fashion,8.0
+68,Electronics,5.0
+69,Electronics,5.0
+70,Electronics,4.0
+71,Beauty,8.0
+72,Books,1.0
+73,Books,6.0
+74,Toys,1.0
+75,Beauty,1.0
+76,Fashion,5.0
+77,Sports,4.0
+78,Electronics,7.0
+79,Home & Kitchen,4.0
+80,Sports,7.0
+81,Books,5.0
+82,Toys,6.0
+83,Home & Kitchen,5.0
+84,Groceries,5.0
+85,Fashion,3.0
+86,Sports,2.0
+87,Fashion,1.0
+88,Beauty,3.0
+89,Groceries,7.0
+90,Beauty,2.0
+91,Electronics,3.0
+92,Books,4.0
+93,Groceries,5.0
+94,Toys,4.0
+95,Sports,7.0
+96,Fashion,4.0
+97,Groceries,4.0
+98,Home & Kitchen,8.0
+99,Electronics,8.0
+100,Books,6.0
+101,Fashion,1.0
+102,Toys,8.0
+103,Groceries,5.0
+104,Books,1.0
+105,Electronics,2.0
+106,Electronics,5.0
+107,Sports,3.0
+108,Beauty,6.0
+109,Books,3.0
+110,Electronics,7.0
+111,Groceries,2.0
+112,Fashion,2.0
+113,Groceries,8.0
+114,Electronics,3.0
+115,Beauty,5.0
+116,Groceries,3.0
+117,Home & Kitchen,6.0
+118,Electronics,6.0
+119,Sports,2.0
+120,Groceries,1.0
+121,Beauty,3.0
+122,Groceries,5.0
+123,Beauty,8.0
+124,Toys,8.0
+125,Fashion,3.0
+126,Groceries,1.0
+127,Electronics,3.0
+128,Home & Kitchen,3.0
+129,Home & Kitchen,6.0
+130,Toys,1.0
+131,Fashion,4.0
+132,Home & Kitchen,1.0
+133,Groceries,4.0
+134,Beauty,2.0
+135,Electronics,2.0
+136,Books,7.0
+137,Books,2.0
+138,Home & Kitchen,8.0
+139,Beauty,4.0
+140,Electronics,7.0
+141,Books,3.0
+142,Books,2.0
+143,Sports,8.0
+144,Books,3.0
+145,Electronics,2.0
+146,Fashion,1.0
+147,Beauty,1.0
+148,Toys,2.0
+149,Books,7.0
+150,Toys,8.0
+151,Electronics,2.0
+152,Home & Kitchen,2.0
+153,Books,4.0
+154,Toys,5.0
+155,Sports,2.0
+156,Home & Kitchen,7.0
+157,Beauty,8.0
+158,Groceries,4.0
+159,Toys,7.0
+160,Beauty,3.0
+161,Beauty,3.0
+162,Electronics,5.0
+163,Home & Kitchen,1.0
+164,Fashion,5.0
+165,Books,8.0
+166,Fashion,3.0
+167,Sports,5.0
+168,Sports,3.0
+169,Beauty,7.0
+170,Electronics,5.0
+171,Beauty,7.0
+172,Electronics,2.0
+173,Home & Kitchen,3.0
+174,Sports,4.0
+175,Electronics,2.0
+176,Toys,2.0
+177,Groceries,3.0
+178,Toys,4.0
+179,Sports,3.0
+180,Beauty,5.0
+181,Sports,1.0
+182,Home & Kitchen,8.0
+183,Electronics,1.0
+184,Sports,8.0
+185,Beauty,4.0
+186,Fashion,1.0
+187,Electronics,4.0
+188,Groceries,8.0
+189,Groceries,1.0
+190,Sports,1.0
+191,Toys,2.0
+192,Fashion,1.0
+193,Books,3.0
+194,Beauty,7.0
+195,Toys,7.0
+196,Electronics,4.0
+197,Books,4.0
+198,Toys,2.0
+199,Home & Kitchen,5.0
+200,Toys,3.0
+201,Fashion,8.0
+202,Toys,5.0
+203,Beauty,4.0
+204,Electronics,3.0
+205,Electronics,4.0
+206,Electronics,3.0
+207,Books,5.0
+208,Sports,7.0
+209,Electronics,8.0
+210,Books,7.0
+211,Fashion,8.0
+212,Beauty,3.0
+213,Electronics,5.0
+214,Toys,5.0
+215,Books,8.0
+216,Sports,2.0
+217,Beauty,4.0
+218,Toys,2.0
+219,Beauty,2.0
+220,Electronics,3.0
+221,Beauty,2.0
+222,Home & Kitchen,1.0
+223,Books,3.0
+224,Toys,4.0
+225,Groceries,8.0
+226,Electronics,5.0
+227,Sports,2.0
+228,Fashion,2.0
+229,Fashion,3.0
+230,Fashion,5.0
+231,Beauty,1.0
+232,Fashion,5.0
+233,Fashion,4.0
+234,Beauty,8.0
+235,Fashion,7.0
+236,Home & Kitchen,4.0
+237,Home & Kitchen,8.0
+238,Books,1.0
+239,Home & Kitchen,4.0
+240,Home & Kitchen,3.0
+241,Fashion,4.0
+242,Home & Kitchen,1.0
+243,Toys,6.0
+244,Groceries,1.0
+245,Beauty,2.0
+246,Toys,8.0
+247,Sports,6.0
+248,Electronics,7.0
+249,Books,1.0
+250,Groceries,3.0
+251,Sports,2.0
+252,Electronics,1.0
+253,Groceries,6.0
+254,Fashion,7.0
+255,Toys,4.0
+256,Groceries,7.0
+257,Home & Kitchen,8.0
+258,Beauty,8.0
+259,Beauty,4.0
+260,Electronics,5.0
+261,Sports,7.0
+262,Toys,4.0
+263,Books,3.0
+264,Fashion,3.0
+265,Fashion,5.0
+266,Home & Kitchen,1.0
+267,Sports,3.0
+268,Fashion,3.0
+269,Fashion,4.0
+270,Books,6.0
+271,Sports,1.0
+272,Groceries,6.0
+273,Home & Kitchen,6.0
+274,Beauty,4.0
+275,Home & Kitchen,7.0
+276,Books,1.0
+277,Electronics,5.0
+278,Home & Kitchen,5.0
+279,Books,6.0
+280,Toys,8.0
+281,Home & Kitchen,5.0
+282,Electronics,8.0
+283,Books,1.0
+284,Toys,1.0
+285,Sports,8.0
+286,Electronics,6.0
+287,Groceries,3.0
+288,Beauty,8.0
+289,Sports,2.0
+290,Toys,8.0
+291,Groceries,5.0
+292,Sports,6.0
+293,Fashion,8.0
+294,Toys,6.0
+295,Electronics,8.0
+296,Toys,3.0
+297,Books,2.0
+298,Beauty,3.0
+299,Home & Kitchen,5.0
+300,Home & Kitchen,7.0
+301,Groceries,8.0
+302,Electronics,4.0
+303,Toys,3.0
+304,Home & Kitchen,3.0
+305,Toys,2.0
+306,Home & Kitchen,5.0
+307,Books,5.0
+308,Home & Kitchen,3.0
+309,Groceries,2.0
+310,Beauty,1.0
+311,Beauty,4.0
+312,Books,6.0
+313,Sports,5.0
+314,Electronics,8.0
+315,Electronics,7.0
+316,Groceries,3.0
+317,Home & Kitchen,1.0
+318,Electronics,1.0
+319,Sports,5.0
+320,Toys,4.0
+321,Books,5.0
+322,Electronics,5.0
+323,Groceries,7.0
+324,Home & Kitchen,7.0
+325,Groceries,1.0
+326,Electronics,7.0
+327,Home & Kitchen,6.0
+328,Sports,1.0
+329,Sports,2.0
+330,Home & Kitchen,8.0
+331,Toys,7.0
+332,Groceries,6.0
+333,Fashion,5.0
+334,Home & Kitchen,3.0
+335,Beauty,3.0
+336,Electronics,6.0
+337,Books,7.0
+338,Beauty,4.0
+339,Sports,3.0
+340,Toys,6.0
+341,Toys,3.0
+342,Home & Kitchen,8.0
+343,Beauty,6.0
+344,Home & Kitchen,4.0
+345,Sports,3.0
+346,Home & Kitchen,7.0
+347,Books,5.0
+348,Fashion,6.0
+349,Home & Kitchen,6.0
+350,Beauty,4.0
+351,Electronics,2.0
+352,Toys,6.0
+353,Electronics,7.0
+354,Sports,7.0
+355,Toys,8.0
+356,Groceries,1.0
+357,Fashion,3.0
+358,Fashion,6.0
+359,Books,6.0
+360,Toys,1.0
+361,Electronics,4.0
+362,Groceries,4.0
+363,Books,6.0
+364,Fashion,1.0
+365,Beauty,6.0
+366,Fashion,5.0
+367,Home & Kitchen,1.0
+368,Home & Kitchen,8.0
+369,Books,1.0
+370,Home & Kitchen,4.0
+371,Electronics,8.0
+372,Books,7.0
+373,Books,3.0
+374,Electronics,4.0
+375,Toys,4.0
+376,Sports,5.0
+377,Toys,5.0
+378,Groceries,7.0
+379,Fashion,6.0
+380,Toys,6.0
+381,Sports,5.0
+382,Sports,6.0
+383,Groceries,1.0
+384,Groceries,4.0
+385,Toys,2.0
+386,Sports,6.0
+387,Fashion,1.0
+388,Books,8.0
+389,Toys,8.0
+390,Electronics,4.0
+391,Beauty,8.0
+392,Beauty,3.0
+393,Home & Kitchen,1.0
+394,Toys,3.0
+395,Fashion,6.0
+396,Sports,8.0
+397,Groceries,6.0
+398,Toys,8.0
+399,Electronics,2.0
+400,Electronics,8.0
+401,Electronics,7.0
+402,Beauty,3.0
+403,Toys,4.0
+404,Home & Kitchen,3.0
+405,Toys,7.0
+406,Groceries,5.0
+407,Groceries,6.0
+408,Electronics,5.0
+409,Groceries,6.0
+410,Books,8.0
+411,Books,4.0
+412,Fashion,4.0
+413,Fashion,1.0
+414,Home & Kitchen,8.0
+415,Fashion,3.0
+416,Electronics,8.0
+417,Toys,2.0
+418,Electronics,2.0
+419,Beauty,4.0
+420,Fashion,1.0
+421,Groceries,2.0
+422,Toys,4.0
+423,Beauty,8.0
+424,Books,3.0
+425,Books,1.0
+426,Electronics,4.0
+427,Groceries,3.0
+428,Fashion,5.0
+429,Home & Kitchen,4.0
+430,Electronics,6.0
+431,Toys,5.0
+432,Groceries,6.0
+433,Home & Kitchen,7.0
+434,Sports,8.0
+435,Home & Kitchen,1.0
+436,Groceries,5.0
+437,Toys,4.0
+438,Sports,2.0
+439,Fashion,2.0
+440,Beauty,4.0
+441,Books,3.0
+442,Toys,4.0
+443,Books,3.0
+444,Home & Kitchen,4.0
+445,Toys,3.0
+446,Sports,3.0
+447,Home & Kitchen,5.0
+448,Sports,7.0
+449,Toys,5.0
+450,Books,1.0
+451,Toys,6.0
+452,Beauty,8.0
+453,Beauty,2.0
+454,Groceries,6.0
+455,Sports,4.0
+456,Home & Kitchen,8.0
+457,Fashion,4.0
+458,Books,4.0
+459,Toys,7.0
+460,Sports,8.0
+461,Fashion,2.0
+462,Home & Kitchen,3.0
+463,Beauty,2.0
+464,Toys,5.0
+465,Books,3.0
+466,Toys,8.0
+467,Home & Kitchen,2.0
+468,Groceries,6.0
+469,Home & Kitchen,8.0
+470,Home & Kitchen,2.0
+471,Books,2.0
+472,Fashion,4.0
+473,Beauty,1.0
+474,Electronics,3.0
+475,Home & Kitchen,4.0
+476,Home & Kitchen,4.0
+477,Beauty,8.0
+478,Books,7.0
+479,Beauty,1.0
+480,Books,2.0
+481,Sports,8.0
+482,Fashion,1.0
+483,Beauty,8.0
+484,Books,8.0
+485,Fashion,7.0
+486,Electronics,4.0
+487,Toys,1.0
+488,Beauty,6.0
+489,Home & Kitchen,4.0
+490,Groceries,5.0
+491,Sports,5.0
+492,Beauty,1.0
+493,Books,1.0
+494,Beauty,1.0
+495,Groceries,7.0
+496,Home & Kitchen,8.0
+497,Groceries,5.0
+498,Electronics,3.0
+499,Electronics,2.0
+500,Fashion,2.0
+501,Fashion,8.0
+502,Beauty,7.0
+503,Toys,2.0
+504,Groceries,5.0
+505,Books,4.0
+506,Sports,1.0
+507,Fashion,4.0
+508,Groceries,6.0
+509,Home & Kitchen,2.0
+510,Sports,6.0
+511,Books,8.0
+512,Beauty,7.0
+513,Home & Kitchen,5.0
+514,Sports,5.0
+515,Home & Kitchen,3.0
+516,Toys,5.0
+517,Groceries,5.0
+518,Beauty,7.0
+519,Sports,1.0
+520,Books,1.0
+521,Groceries,5.0
+522,Home & Kitchen,3.0
+523,Books,6.0
+524,Sports,1.0
+525,Books,7.0
+526,Sports,3.0
+527,Home & Kitchen,5.0
+528,Sports,3.0
+529,Fashion,3.0
+530,Electronics,5.0
+531,Books,6.0
+532,Groceries,4.0
+533,Toys,5.0
+534,Electronics,1.0
+535,Groceries,3.0
+536,Electronics,3.0
+537,Beauty,2.0
+538,Fashion,6.0
+539,Groceries,4.0
+540,Books,1.0
+541,Groceries,2.0
+542,Home & Kitchen,3.0
+543,Groceries,4.0
+544,Sports,8.0
+545,Groceries,3.0
+546,Sports,2.0
+547,Beauty,4.0
+548,Toys,7.0
+549,Electronics,7.0
+550,Sports,5.0
+551,Electronics,8.0
+552,Electronics,6.0
+553,Toys,4.0
+554,Groceries,8.0
+555,Fashion,4.0
+556,Toys,3.0
+557,Toys,7.0
+558,Home & Kitchen,8.0
+559,Toys,6.0
+560,Groceries,1.0
+561,Sports,6.0
+562,Books,2.0
+563,Home & Kitchen,8.0
+564,Sports,3.0
+565,Groceries,3.0
+566,Electronics,5.0
+567,Sports,3.0
+568,Home & Kitchen,8.0
+569,Books,8.0
+570,Sports,3.0
+571,Sports,5.0
+572,Groceries,8.0
+573,Books,8.0
+574,Sports,8.0
+575,Fashion,2.0
+576,Beauty,3.0
+577,Home & Kitchen,4.0
+578,Toys,8.0
+579,Groceries,2.0
+580,Books,1.0
+581,Beauty,5.0
+582,Toys,6.0
+583,Fashion,4.0
+584,Fashion,8.0
+585,Beauty,6.0
+586,Toys,2.0
+587,Home & Kitchen,7.0
+588,Home & Kitchen,5.0
+589,Sports,6.0
+590,Beauty,1.0
+591,Fashion,1.0
+592,Groceries,6.0
+593,Fashion,7.0
+594,Home & Kitchen,7.0
+595,Toys,5.0
+596,Groceries,3.0
+597,Fashion,7.0
+598,Toys,5.0
+599,Beauty,1.0
+600,Sports,6.0
+601,Fashion,5.0
+602,Home & Kitchen,1.0
+603,Toys,7.0
+604,Electronics,8.0
+605,Books,3.0
+606,Sports,7.0
+607,Home & Kitchen,8.0
+608,Electronics,4.0
+609,Toys,6.0
+610,Electronics,2.0
+611,Fashion,3.0
+612,Beauty,4.0
+613,Fashion,7.0
+614,Fashion,6.0
+615,Beauty,1.0
+616,Beauty,8.0
+617,Groceries,8.0
+618,Sports,3.0
+619,Fashion,2.0
+620,Toys,3.0
+621,Books,7.0
+622,Toys,8.0
+623,Beauty,3.0
+624,Beauty,3.0
+625,Books,6.0
+626,Beauty,3.0
+627,Books,7.0
+628,Sports,8.0
+629,Sports,1.0
+630,Groceries,1.0
+631,Electronics,4.0
+632,Home & Kitchen,1.0
+633,Electronics,5.0
+634,Books,6.0
+635,Sports,8.0
+636,Home & Kitchen,1.0
+637,Beauty,8.0
+638,Beauty,5.0
+639,Electronics,3.0
+640,Electronics,7.0
+641,Electronics,7.0
+642,Sports,1.0
+643,Toys,7.0
+644,Home & Kitchen,6.0
+645,Home & Kitchen,1.0
+646,Fashion,7.0
+647,Toys,2.0
+648,Fashion,4.0
+649,Electronics,7.0
+650,Books,3.0
+651,Sports,8.0
+652,Books,4.0
+653,Books,5.0
+654,Sports,1.0
+655,Home & Kitchen,8.0
+656,Books,3.0
+657,Sports,7.0
+658,Fashion,2.0
+659,Sports,5.0
+660,Fashion,6.0
+661,Toys,2.0
+662,Groceries,6.0
+663,Fashion,1.0
+664,Electronics,3.0
+665,Groceries,5.0
+666,Beauty,1.0
+667,Sports,4.0
+668,Sports,7.0
+669,Groceries,7.0
+670,Electronics,7.0
+671,Electronics,1.0
+672,Fashion,6.0
+673,Home & Kitchen,5.0
+674,Sports,8.0
+675,Books,2.0
+676,Groceries,3.0
+677,Beauty,2.0
+678,Electronics,6.0
+679,Fashion,1.0
+680,Books,4.0
+681,Books,3.0
+682,Books,8.0
+683,Electronics,1.0
+684,Beauty,1.0
+685,Books,8.0
+686,Fashion,5.0
+687,Toys,6.0
+688,Electronics,1.0
+689,Home & Kitchen,4.0
+690,Books,4.0
+691,Sports,6.0
+692,Toys,3.0
+693,Beauty,3.0
+694,Groceries,5.0
+695,Toys,1.0
+696,Toys,5.0
+697,Sports,4.0
+698,Groceries,6.0
+699,Home & Kitchen,4.0
+700,Groceries,1.0
+701,Home & Kitchen,8.0
+702,Toys,5.0
+703,Home & Kitchen,4.0
+704,Beauty,8.0
+705,Fashion,1.0
+706,Books,5.0
+707,Books,3.0
+708,Electronics,8.0
+709,Books,6.0
+710,Books,4.0
+711,Toys,1.0
+712,Beauty,4.0
+713,Beauty,5.0
+714,Sports,4.0
+715,Beauty,6.0
+716,Books,6.0
+717,Sports,5.0
+718,Sports,6.0
+719,Fashion,7.0
+720,Groceries,7.0
+721,Beauty,8.0
+722,Beauty,8.0
+723,Toys,7.0
+724,Groceries,7.0
+725,Home & Kitchen,1.0
+726,Electronics,8.0
+727,Fashion,1.0
+728,Home & Kitchen,7.0
+729,Beauty,8.0
+730,Electronics,1.0
+731,Toys,6.0
+732,Home & Kitchen,3.0
+733,Electronics,3.0
+734,Home & Kitchen,7.0
+735,Sports,6.0
+736,Electronics,7.0
+737,Electronics,5.0
+738,Groceries,1.0
+739,Electronics,8.0
+740,Fashion,3.0
+741,Home & Kitchen,4.0
+742,Sports,4.0
+743,Toys,1.0
+744,Fashion,3.0
+745,Fashion,7.0
+746,Home & Kitchen,4.0
+747,Books,1.0
+748,Fashion,4.0
+749,Sports,8.0
+750,Toys,6.0
+751,Electronics,7.0
+752,Groceries,2.0
+753,Beauty,7.0
+754,Books,1.0
+755,Home & Kitchen,1.0
+756,Books,4.0
+757,Groceries,8.0
+758,Fashion,5.0
+759,Home & Kitchen,2.0
+760,Fashion,3.0
+761,Groceries,8.0
+762,Beauty,3.0
+763,Toys,2.0
+764,Sports,5.0
+765,Books,5.0
+766,Toys,4.0
+767,Home & Kitchen,5.0
+768,Groceries,6.0
+769,Home & Kitchen,5.0
+770,Electronics,4.0
+771,Toys,3.0
+772,Home & Kitchen,7.0
+773,Groceries,2.0
+774,Electronics,6.0
+775,Sports,4.0
+776,Toys,4.0
+777,Electronics,4.0
+778,Beauty,2.0
+779,Beauty,8.0
+780,Books,5.0
+781,Books,2.0
+782,Fashion,5.0
+783,Beauty,6.0
+784,Books,1.0
+785,Beauty,7.0
+786,Toys,8.0
+787,Books,7.0
+788,Fashion,6.0
+789,Electronics,4.0
+790,Home & Kitchen,1.0
+791,Sports,7.0
+792,Beauty,3.0
+793,Books,6.0
+794,Sports,4.0
+795,Books,2.0
+796,Sports,2.0
+797,Books,8.0
+798,Groceries,7.0
+799,Toys,7.0
+800,Books,8.0
+801,Sports,1.0
+802,Electronics,8.0
+803,Sports,8.0
+804,Fashion,3.0
+805,Groceries,5.0
+806,Beauty,8.0
+807,Home & Kitchen,6.0
+808,Electronics,4.0
+809,Electronics,1.0
+810,Home & Kitchen,6.0
+811,Groceries,2.0
+812,Electronics,4.0
+813,Groceries,8.0
+814,Groceries,8.0
+815,Beauty,2.0
+816,Sports,4.0
+817,Toys,5.0
+818,Toys,6.0
+819,Beauty,5.0
+820,Groceries,6.0
+821,Groceries,7.0
+822,Beauty,8.0
+823,Electronics,2.0
+824,Toys,1.0
+825,Electronics,3.0
+826,Books,4.0
+827,Home & Kitchen,5.0
+828,Groceries,6.0
+829,Groceries,6.0
+830,Electronics,3.0
+831,Fashion,7.0
+832,Groceries,3.0
+833,Fashion,6.0
+834,Fashion,1.0
+835,Fashion,2.0
+836,Books,2.0
+837,Sports,4.0
+838,Groceries,3.0
+839,Home & Kitchen,1.0
+840,Electronics,1.0
+841,Beauty,6.0
+842,Sports,5.0
+843,Sports,5.0
+844,Books,7.0
+845,Home & Kitchen,7.0
+846,Sports,5.0
+847,Toys,8.0
+848,Fashion,5.0
+849,Fashion,6.0
+850,Toys,2.0
+851,Toys,1.0
+852,Home & Kitchen,5.0
+853,Groceries,8.0
+854,Beauty,6.0
+855,Electronics,7.0
+856,Home & Kitchen,6.0
+857,Beauty,8.0
+858,Home & Kitchen,2.0
+859,Home & Kitchen,3.0
+860,Fashion,1.0
+861,Sports,7.0
+862,Books,3.0
+863,Sports,6.0
+864,Fashion,4.0
+865,Beauty,8.0
+866,Home & Kitchen,8.0
+867,Home & Kitchen,5.0
+868,Fashion,1.0
+869,Home & Kitchen,5.0
+870,Electronics,1.0
+871,Fashion,8.0
+872,Sports,1.0
+873,Groceries,4.0
+874,Fashion,1.0
+875,Groceries,6.0
+876,Fashion,6.0
+877,Fashion,4.0
+878,Groceries,3.0
+879,Toys,2.0
+880,Beauty,6.0
+881,Electronics,7.0
+882,Beauty,3.0
+883,Groceries,2.0
+884,Books,8.0
+885,Sports,1.0
+886,Toys,7.0
+887,Books,4.0
+888,Groceries,3.0
+889,Books,5.0
+890,Home & Kitchen,6.0
+891,Fashion,8.0
+892,Sports,6.0
+893,Groceries,7.0
+894,Home & Kitchen,5.0
+895,Beauty,4.0
+896,Books,2.0
+897,Fashion,6.0
+898,Books,1.0
+899,Sports,3.0
+900,Electronics,6.0
+901,Books,7.0
+902,Books,1.0
+903,Home & Kitchen,4.0
+904,Fashion,2.0
+905,Groceries,1.0
+906,Home & Kitchen,7.0
+907,Sports,7.0
+908,Toys,6.0
+909,Fashion,8.0
+910,Beauty,5.0
+911,Electronics,6.0
+912,Electronics,8.0
+913,Beauty,2.0
+914,Beauty,3.0
+915,Home & Kitchen,8.0
+916,Home & Kitchen,1.0
+917,Electronics,2.0
+918,Home & Kitchen,6.0
+919,Toys,3.0
+920,Books,3.0
+921,Beauty,1.0
+922,Books,3.0
+923,Fashion,7.0
+924,Home & Kitchen,4.0
+925,Toys,5.0
+926,Beauty,2.0
+927,Sports,4.0
+928,Home & Kitchen,3.0
+929,Electronics,8.0
+930,Electronics,5.0
+931,Fashion,4.0
+932,Fashion,1.0
+933,Toys,5.0
+934,Sports,3.0
+935,Books,8.0
+936,Home & Kitchen,2.0
+937,Home & Kitchen,5.0
+938,Home & Kitchen,8.0
+939,Books,8.0
+940,Beauty,3.0
+941,Electronics,2.0
+942,Sports,4.0
+943,Sports,4.0
+944,Toys,1.0
+945,Beauty,2.0
+946,Toys,4.0
+947,Fashion,1.0
+948,Sports,5.0
+949,Toys,6.0
+950,Sports,6.0
+951,Toys,8.0
+952,Beauty,3.0
+953,Groceries,8.0
+954,Fashion,2.0
+955,Fashion,5.0
+956,Sports,2.0
+957,Sports,1.0
+958,Home & Kitchen,8.0
+959,Groceries,5.0
+960,Beauty,3.0
+961,Fashion,7.0
+962,Sports,6.0
+963,Toys,8.0
+964,Electronics,3.0
+965,Home & Kitchen,3.0
+966,Toys,5.0
+967,Groceries,7.0
+968,Sports,7.0
+969,Sports,1.0
+970,Fashion,2.0
+971,Fashion,5.0
+972,Groceries,8.0
+973,Toys,6.0
+974,Fashion,6.0
+975,Fashion,3.0
+976,Home & Kitchen,4.0
+977,Toys,5.0
+978,Home & Kitchen,7.0
+979,Fashion,3.0
+980,Books,2.0
+981,Electronics,3.0
+982,Home & Kitchen,3.0
+983,Sports,6.0
+984,Beauty,2.0
+985,Books,8.0
+986,Books,5.0
+987,Electronics,3.0
+988,Beauty,2.0
+989,Fashion,8.0
+990,Groceries,7.0
+991,Electronics,6.0
+992,Books,6.0
+993,Toys,1.0
+994,Books,3.0
+995,Groceries,3.0
+996,Fashion,4.0
+997,Home & Kitchen,2.0
+998,Fashion,4.0
+999,Home & Kitchen,8.0
+1000,Sports,7.0
