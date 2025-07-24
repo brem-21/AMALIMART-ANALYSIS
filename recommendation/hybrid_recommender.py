@@ -11,6 +11,7 @@ from typing import List
 import uvicorn
 import pymssql
 from dotenv import load_dotenv
+import mysql.connector
 
 # Load environment variables from .env
 load_dotenv()
@@ -19,12 +20,12 @@ app = FastAPI()
 
 # Database connection
 def get_connection():
-    return pymssql.connect(
+    return mysql.connector.connect(
         host=os.getenv("SQL_SERVER_HOST"),
         user=os.getenv("SQL_SERVER_USER"),
         password=os.getenv("SQL_SERVER_PASSWORD"),
-        database=os.getenv("DB_NAME"),
-        port=int(os.getenv("SQL_SERVER_DATABASE", 3306))
+        database=os.getenv("SQL_SERVER_DATABASE"),
+        port=3306
     )
 
 # Load data from SQL Server

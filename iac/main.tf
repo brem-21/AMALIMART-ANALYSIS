@@ -24,6 +24,7 @@ module "glue_iam_role" {
   bucket_name = var.bucket_name
 }
 
+
 module "glue_job" {
   source              = "./module/glue"
   glue_job_name       = var.glue_job_name
