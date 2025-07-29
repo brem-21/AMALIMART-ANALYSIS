@@ -1,0 +1,9 @@
+version: "version"
+services:
+  app:
+    image: recommend
+    container_name: amalimart-recommender
+    environment:
+      - .env
+    ports:
+      - "8002:8001"
