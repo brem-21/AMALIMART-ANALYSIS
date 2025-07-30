@@ -154,9 +154,23 @@ def hybrid_recommend(user_cart_ids, user_cart_names, weights={"market": 0.4, "co
 #recommendation endpoint
 @app.get("/recommendations")
 def recommend(cart_ids: List[int] = Query(...)):
-    cart_subset = cart_items[cart_items["cart_id"].isin(cart_ids)]
-    user_cart_names = cart_subset["name"].tolist()
-    user_cart_product_ids = cart_subset["product_id"].tolist()
+    # Reload fresh data
+    products, cart_items = load_data()
+    
+    # Preprocess products
+    products = products[products["status"] == "ACTIVE"].copy()
+    products["text"] = products["name"].fillna("") + " " + products["description"].fillna("")
+    
+    # Filter cart items for active products
+    cart_items = cart_items[cart_items["product_id"].isin(products["id"])]
+    cart_items = cart_items.merge(products[["id", "name"]], left_on="product_id", right_on="id")
+    
+    # Prepare inputs for recommenders
+    user_cart_subset = cart_items[cart_items["cart_id"].isin(cart_ids)]
+    user_cart_names = user_cart_subset["name"].tolist()
+    user_cart_product_ids = user_cart_subset["product_id"].tolist()
+
+    # Use global models
     return hybrid_recommend(user_cart_product_ids, user_cart_names)
 
 if __name__ == "__main__":
