@@ -10,6 +10,64 @@ This project orchestrates a complete data ingestion and transformation pipeline 
 ---
 
 ##  Workflow Summary
+To ingest data from an external app database, process and transform it through multiple stages (bronze → silver → gold), and finally make it available for analytics, visualization, and storage in Redshift and an internal database — with notifications at key points.
+![architecture diagram](<Project Assets/ARCHITECTURE.png>)
+
+### Key Pipeline Stages
+*App Database (External Source)*
+
+- Original source of raw transactional data (e.g., orders, users, products).
+
+*Landing Database*
+
+- Temporary RDS used to ingest and stage the raw data.
+
+*Bronze Lakehouse*
+
+- Stores raw ingested data in S3 in Delta format.
+
+- Used for backup, auditing, or reprocessing.
+
+*Silver Datalakehouse*
+
+- Stores cleaned and enriched data.
+
+- Business logic, deduplication, and joins are applied here.
+
+*Gold Datalakehouse*
+
+- Contains high-quality, aggregated, and ready-for-reporting data.
+
+- Optimized for downstream analytics.
+
+*Gold Database & Redshift*
+
+`Internal RDS`: Receives part of the gold-level data for operational use.
+
+`Redshift`: For high-performance analytical queries and BI tools.
+
+*Glue Jobs*
+
+- Handle all ETL transformations between stages (Bronze → Silver → Gold).
+
+- Load data to internal RDS and Redshift.
+
+*Notifications (SNS)*
+
+- Triggered after key ingestion and loading steps to inform stakeholders or systems of progress or issues.
+
+*Visualization*
+
+- Final data can be used for dashboards and reporting (e.g., via QuickSight, Tableau).
+
+ ## Why This is Valuable
+- Ensures data quality and lineage across all layers.
+
+- Enables scalable analytics with Delta + Redshift.
+
+- Automates the pipeline with AWS Glue and SNS notifications.
+
+- Supports both operational and analytical workloads.
 
 ###  Step Function Flow:
 ![orchestration](<Project Assets/stepfunctions_graph.png>)
