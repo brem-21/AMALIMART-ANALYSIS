@@ -1,0 +1,217 @@
+{
+  "Comment": "Pipeline with pause for internal RDS and Redshift after use.",
+  "StartAt": "Ingest External to Internal RDS",
+  "States": {
+    "Ingest External to Internal RDS": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::glue:startJobRun.sync",
+      "Parameters": {
+        "JobName": "read_from_app_database"
+      },
+      "Next": "Notify Data In Internal RDS",
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "Notify Failure"
+        }
+      ]
+    },
+    "Notify Data In Internal RDS": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::sns:publish",
+      "Parameters": {
+        "TopicArn": "arn:aws:sns:eu-west-1:050451375647:Success",
+        "Message": "✅ Data ingestion from External RDS to Internal RDS completed successfully."
+      },
+      "Next": "Ingest Internal RDS to Delta S3"
+    },
+    "Ingest Internal RDS to Delta S3": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::glue:startJobRun.sync",
+      "Parameters": {
+        "JobName": "ingestion_from_rds"
+      },
+      "Next": "Pause Internal RDS Cluster",
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "Notify Failure"
+        }
+      ]
+    },
+    "Pause Internal RDS Cluster": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "pauseInternalRDSLambda",
+        "Payload": {}
+      },
+      "Next": "Silver Transform",
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "Notify Failure"
+        }
+      ]
+    },
+    "Silver Transform": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::glue:startJobRun.sync",
+      "Parameters": {
+        "JobName": "silver_transformation"
+      },
+      "Next": "Gold Transform",
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "Notify Failure"
+        }
+      ]
+    },
+    "Gold Transform": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::glue:startJobRun.sync",
+      "Parameters": {
+        "JobName": "gold_transformation"
+      },
+      "Next": "Parallel Loads",
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "Notify Failure"
+        }
+      ]
+    },
+    "Parallel Loads": {
+      "Type": "Parallel",
+      "Branches": [
+        {
+          "StartAt": "Load Silver to Internal RDS",
+          "States": {
+            "Load Silver to Internal RDS": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "rds"
+              },
+              "End": true,
+              "Catch": [
+                {
+                  "ErrorEquals": [
+                    "States.ALL"
+                  ],
+                  "ResultPath": "$.error",
+                  "Next": "Notify Silver Load Failure"
+                }
+              ]
+            },
+            "Notify Silver Load Failure": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::sns:publish",
+              "Parameters": {
+                "TopicArn": "arn:aws:sns:eu-west-1:050451375647:Failed",
+                "Message": "❌ Parallel branch failed during Silver to RDS load."
+              },
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "Load Gold to Redshift",
+          "States": {
+            "Load Gold to Redshift": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "write_to_rds_rs"
+              },
+              "Next": "Pause Redshift Cluster",
+              "Catch": [
+                {
+                  "ErrorEquals": [
+                    "States.ALL"
+                  ],
+                  "ResultPath": "$.error",
+                  "Next": "Notify Redshift Load Failure"
+                }
+              ]
+            },
+            "Pause Redshift Cluster": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::lambda:invoke",
+              "Parameters": {
+                "FunctionName": "pauseRedshiftLambda",
+                "Payload": {}
+              },
+              "End": true,
+              "Catch": [
+                {
+                  "ErrorEquals": [
+                    "States.ALL"
+                  ],
+                  "ResultPath": "$.error",
+                  "Next": "Notify Redshift Pause Failure"
+                }
+              ]
+            },
+            "Notify Redshift Load Failure": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::sns:publish",
+              "Parameters": {
+                "TopicArn": "arn:aws:sns:eu-west-1:050451375647:Failed",
+                "Message": "❌ Parallel branch failed during Gold to Redshift load."
+              },
+              "End": true
+            },
+            "Notify Redshift Pause Failure": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::sns:publish",
+              "Parameters": {
+                "TopicArn": "arn:aws:sns:eu-west-1:050451375647:Failed",
+                "Message": "❌ Parallel branch failed during Redshift pause operation."
+              },
+              "End": true
+            }
+          }
+        }
+      ],
+      "Next": "Notify Final Load Complete",
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "Notify Failure"
+        }
+      ]
+    },
+    "Notify Final Load Complete": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::sns:publish",
+      "Parameters": {
+        "TopicArn": "arn:aws:sns:eu-west-1:050451375647:Success",
+        "Message": "✅ Final data loading is complete: Silver to RDS, Gold to Redshift."
+      },
+      "End": true
+    },
+    "Notify Failure": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::sns:publish",
+      "Parameters": {
+        "TopicArn": "arn:aws:sns:eu-west-1:050451375647:Failed",
+        "Message": "❌ Pipeline failed. Check Step Function logs and CloudWatch for details."
+      },
+      "End": true
+    }
+  }
+}
